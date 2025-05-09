@@ -18,13 +18,14 @@ const Menu = () => {
           </div>
           
           <Tabs defaultValue="starters" className="w-full max-w-4xl mx-auto">
-            <TabsList className="grid w-full grid-cols-6 bg-restaurant-muted border border-restaurant-gold/20 rounded-lg mb-8">
+            <TabsList className="grid w-full grid-cols-7 bg-restaurant-muted border border-restaurant-gold/20 rounded-lg mb-8">
               <TabsTrigger value="starters" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Starters</TabsTrigger>
               <TabsTrigger value="platos-criollos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Platos Criollos</TabsTrigger>
               <TabsTrigger value="pescados-mariscos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Pescados y Mariscos</TabsTrigger>
               <TabsTrigger value="grilled-chicken" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Grilled Chicken</TabsTrigger>
               <TabsTrigger value="sopas-soups" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Sopas/Soups</TabsTrigger>
               <TabsTrigger value="guarniciones-extras" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Guarniciones/Extras</TabsTrigger>
+              <TabsTrigger value="soft-drinks" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Gaseosas/Soft Drinks</TabsTrigger>
             </TabsList>
 
             {/* Peruvian Starters Menu */}
@@ -887,6 +888,239 @@ const Menu = () => {
                           </div>
                           <p className="text-gray-400">
                             Golden French fries.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+
+            {/* Gaseosas/Soft Drinks Menu */}
+            <TabsContent value="soft-drinks">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Gaseosas/Soft Drinks</h2>
+                  
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Coca Cola (Can) */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/0ee0ea0f-b4a9-4cc6-a12a-18031eea8d6d.png" 
+                            alt="Coca Cola (Can)" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Coca Cola (Can)</h3>
+                            <span className="text-restaurant-gold">£2.50</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Classic Coca-Cola soft drink in a 330ml can.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Fanta (Can) */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/e04b1f9a-5d9b-449b-b7c8-d7dad115fdd0.png" 
+                            alt="Fanta (Can)" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Fanta (Can)</h3>
+                            <span className="text-restaurant-gold">£2.50</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Orange-flavoured Fanta soft drink in a 330ml can.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Inka Kola */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/db7ce4c9-65e8-46bc-af80-88b690b940fa.png" 
+                            alt="Inka Kola" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Inka Kola</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Traditional Peruvian yellow soda with a sweet, fruity flavour (glass bottle).
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Manzana 2 Litros */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/7cf41d78-53fd-454d-ada5-914b9e299dc5.png" 
+                            alt="Manzana 2 Litros" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Manzana 2 Litros</h3>
+                            <span className="text-restaurant-gold">£7.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            2-litre bottle of apple-flavoured Peruvian soda.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Manzana 500ml */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/1e468940-fa8e-49e1-b7b8-04cd700f698c.png" 
+                            alt="Manzana 500ml" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Manzana 500ml</h3>
+                            <span className="text-restaurant-gold">£3.50</span>
+                          </div>
+                          <p className="text-gray-400">
+                            500ml bottle of apple-flavoured Peruvian soda.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Tropical 2 Litros */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/4b0181c2-4a34-4d13-bd1f-cad70ee1c6bf.png" 
+                            alt="Tropical 2 Litros" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Tropical 2 Litros</h3>
+                            <span className="text-restaurant-gold">£7.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            2-litre bottle of tropical fruit-flavoured Peruvian soda.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Tropical 500ml */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/ea50b6a4-1ac4-4960-81fe-0fa15005d153.png" 
+                            alt="Tropical 500ml" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Tropical 500ml</h3>
+                            <span className="text-restaurant-gold">£3.50</span>
+                          </div>
+                          <p className="text-gray-400">
+                            500ml bottle of tropical fruit-flavoured Peruvian soda.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* 7UP (Can) */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/6484075a-6faa-46a4-b2d4-97825797818b.png" 
+                            alt="7UP (Can)" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">7UP (Can)</h3>
+                            <span className="text-restaurant-gold">£2.50</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Lemon-lime flavoured 7UP in a 330ml can.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* America / Andin's Cristal 2 Litros */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/42e30f3a-69d6-4e33-ac16-1bc9cfb582d2.png" 
+                            alt="America / Andin's Cristal 2 Litros" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">America / Andin's Cristal 2 Litros</h3>
+                            <span className="text-restaurant-gold">£7.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            2-litre bottle of America Kola, a yellow Peruvian soda with a sweet herbal flavour.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* America / Andin's Cristal 500ml */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/fea09301-97d7-46d6-87f2-1752c49c0b0e.png" 
+                            alt="America / Andin's Cristal 500ml" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">America / Andin's Cristal 500ml</h3>
+                            <span className="text-restaurant-gold">£3.50</span>
+                          </div>
+                          <p className="text-gray-400">
+                            500ml bottle of America Kola, a yellow Peruvian soda with a sweet herbal flavour.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Coca Cola 1.75 Litros */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/ac9e5e30-5cec-424f-bad0-04c989efc93f.png" 
+                            alt="Coca Cola 1.75 Litros" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Coca Cola 1.75 Litros</h3>
+                            <span className="text-restaurant-gold">£7.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            1.75-litre bottle of classic Coca-Cola.
                           </p>
                         </div>
                       </div>
