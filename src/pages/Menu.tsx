@@ -21,7 +21,7 @@ const Menu = () => {
             <TabsList className="grid w-full grid-cols-5 bg-restaurant-muted border border-restaurant-gold/20 rounded-lg mb-8">
               <TabsTrigger value="starters" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Starters</TabsTrigger>
               <TabsTrigger value="platos-criollos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Platos Criollos</TabsTrigger>
-              <TabsTrigger value="dessert" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Dessert</TabsTrigger>
+              <TabsTrigger value="pescados-mariscos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Pescados y Mariscos</TabsTrigger>
               <TabsTrigger value="cocktails" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Cocktails</TabsTrigger>
               <TabsTrigger value="wine" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Wine</TabsTrigger>
             </TabsList>
@@ -419,191 +419,205 @@ const Menu = () => {
               </div>
             </TabsContent>
             
-            {/* Dessert Menu */}
-            <TabsContent value="dessert">
-              <div className="space-y-8">
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Dark Chocolate Soufflé</h3>
-                    <span className="text-restaurant-gold">$14</span>
-                  </div>
-                  <p className="text-gray-400">Vanilla bean ice cream, chocolate sauce (Please allow 20 minutes)</p>
-                </div>
-                
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Crème Brûlée</h3>
-                    <span className="text-restaurant-gold">$12</span>
-                  </div>
-                  <p className="text-gray-400">Madagascar vanilla, seasonal berries</p>
-                </div>
-                
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Sticky Toffee Pudding</h3>
-                    <span className="text-restaurant-gold">$13</span>
-                  </div>
-                  <p className="text-gray-400">Butterscotch sauce, vanilla ice cream, candied pecans</p>
-                </div>
-                
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Artisanal Cheese Plate</h3>
-                    <span className="text-restaurant-gold">$18</span>
-                  </div>
-                  <p className="text-gray-400">Selection of three cheeses, seasonal accompaniments, crackers</p>
-                </div>
-              </div>
-            </TabsContent>
-            
-            {/* Cocktails Menu */}
-            <TabsContent value="cocktails">
-              <div className="space-y-8">
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Classic Manhattan</h3>
-                    <span className="text-restaurant-gold">$16</span>
-                  </div>
-                  <p className="text-gray-400">Rye whiskey, sweet vermouth, bitters, luxardo cherry</p>
-                </div>
-                
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Smoky Old Fashioned</h3>
-                    <span className="text-restaurant-gold">$17</span>
-                  </div>
-                  <p className="text-gray-400">Bourbon, maple syrup, aromatic bitters, applewood smoke</p>
-                </div>
-                
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Elderflower Gin Fizz</h3>
-                    <span className="text-restaurant-gold">$15</span>
-                  </div>
-                  <p className="text-gray-400">London dry gin, elderflower liqueur, fresh lemon, soda, egg white</p>
-                </div>
-                
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Spicy Paloma</h3>
-                    <span className="text-restaurant-gold">$14</span>
-                  </div>
-                  <p className="text-gray-400">Reposado tequila, fresh grapefruit, lime, jalapeño, soda</p>
-                </div>
-                
-                <div className="menu-item">
-                  <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-xl font-serif text-restaurant-light">Non-Alcoholic</h3>
-                    <span className="text-restaurant-gold">$9</span>
-                  </div>
-                  <p className="text-gray-400">Please ask your server about our seasonal non-alcoholic options</p>
-                </div>
-              </div>
-            </TabsContent>
-            
-            {/* Wine Menu */}
-            <TabsContent value="wine">
+            {/* Pescados y Mariscos Menu */}
+            <TabsContent value="pescados-mariscos">
               <div className="space-y-12">
-                {/* Sparkling */}
                 <div>
-                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Sparkling</h2>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Pescados y Mariscos</h2>
                   
-                  <div className="space-y-8">
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Champagne, Veuve Clicquot, Brut</h3>
-                        <span className="text-restaurant-gold">$22 / $110</span>
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Chaufa de Mariscos */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/15f2c05c-0c4f-4184-9411-89516faf79dd.png" 
+                            alt="Chaufa de Mariscos" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Chaufa de Mariscos</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Stir-fried rice with seafood including prawns, mussels, and squid. Served with fried cassava, tartar sauce, and onion salad.
+                          </p>
+                        </div>
                       </div>
-                      <p className="text-gray-400">France</p>
-                    </div>
-                    
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Prosecco, La Marca</h3>
-                        <span className="text-restaurant-gold">$14 / $56</span>
-                      </div>
-                      <p className="text-gray-400">Italy</p>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* White */}
-                <div>
-                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">White</h2>
-                  
-                  <div className="space-y-8">
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Chardonnay, Rombauer</h3>
-                        <span className="text-restaurant-gold">$18 / $72</span>
-                      </div>
-                      <p className="text-gray-400">Carneros, California</p>
-                    </div>
-                    
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Sauvignon Blanc, Cloudy Bay</h3>
-                        <span className="text-restaurant-gold">$16 / $64</span>
-                      </div>
-                      <p className="text-gray-400">Marlborough, New Zealand</p>
-                    </div>
-                    
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Pinot Grigio, Santa Margherita</h3>
-                        <span className="text-restaurant-gold">$15 / $60</span>
-                      </div>
-                      <p className="text-gray-400">Alto Adige, Italy</p>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Red */}
-                <div>
-                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Red</h2>
-                  
-                  <div className="space-y-8">
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Cabernet Sauvignon, Caymus</h3>
-                        <span className="text-restaurant-gold">$25 / $100</span>
-                      </div>
-                      <p className="text-gray-400">Napa Valley, California</p>
-                    </div>
-                    
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Pinot Noir, Belle Glos</h3>
-                        <span className="text-restaurant-gold">$19 / $76</span>
-                      </div>
-                      <p className="text-gray-400">California</p>
-                    </div>
-                    
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Malbec, Catena</h3>
-                        <span className="text-restaurant-gold">$14 / $56</span>
-                      </div>
-                      <p className="text-gray-400">Mendoza, Argentina</p>
-                    </div>
-                    
-                    <div className="menu-item">
-                      <div className="flex justify-between items-baseline mb-2">
-                        <h3 className="text-xl font-serif text-restaurant-light">Super Tuscan, Tignanello</h3>
-                        <span className="text-restaurant-gold">$32 / $160</span>
-                      </div>
-                      <p className="text-gray-400">Tuscany, Italy</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </TabsContent>
-          </Tabs>
-        </div>
-        <Footer />
-      </ScrollArea>
-    </div>
-  );
-};
 
-export default Menu;
+                      {/* Chicharrón de Pescado */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/18c9c608-1cfa-4cab-9936-ec8177742604.png" 
+                            alt="Chicharrón de Pescado" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Chicharrón de Pescado</h3>
+                            <span className="text-restaurant-gold">£17.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Battered and fried fish fillets served with fried cassava, tartar sauce, and onion salad.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Choritos a la Chalaca */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/fab89f8e-fcb9-426a-8704-6d83f5c2b433.png" 
+                            alt="Choritos a la Chalaca" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Choritos a la Chalaca</h3>
+                            <span className="text-restaurant-gold">£16.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Cooked mussels topped with chopped onion, tomato, corn, coriander, and lemon juice.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Duo Marino */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/169bde92-b26b-45d6-9acb-c12699d7ca43.png" 
+                            alt="Duo Marino" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Duo Marino</h3>
+                            <span className="text-restaurant-gold">£19.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            A combination of fish ceviche and crispy fried fish.
+                            <span className="block mt-2 italic">🔸 Spicy</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Jalea */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/a8ba1d1c-1bdc-4e23-88ca-1e2781574152.png" 
+                            alt="Jalea" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Jalea</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Battered and fried fish, prawns, mussels, and squid. Served with fried cassava, tartar sauce, and onion salad.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Ronda Marina */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/97d0f5a9-8f88-44ba-91c2-529bfd695fa8.png" 
+                            alt="Ronda Marina" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Ronda Marina</h3>
+                            <span className="text-restaurant-gold">£35.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            A seafood sampler plate including fish ceviche, fried fish, leche de tigre, tuna causa, and seafood rice.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Trio Marino */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/a0a7cc6a-129d-48af-bc2f-9313705abe65.png" 
+                            alt="Trio Marino" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Trio Marino</h3>
+                            <span className="text-restaurant-gold">£23.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Plate featuring fish ceviche, crispy fried fish, and seafood rice.
+                            <span className="block mt-2 italic">🔸 Spicy</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Arroz con Mariscos */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/5177fa17-3770-43bf-b443-afda3ebcef40.png" 
+                            alt="Arroz con Mariscos" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Arroz con Mariscos</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Portion of rice with prawns, mussels, and squid sautéed with white wine and spices.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Ceviche de Pescado */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/2f1d71cc-01d8-4aeb-954d-921ba1b8d15c.png" 
+                            alt="Ceviche de Pescado" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Ceviche de Pescado</h3>
+                            <span className="text-restaurant-gold">£17.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh raw fish cured in citrus juice (lime), spiced with ají, and mixed with chopped onions, salt, and coriander. Served with sweet potato and Peruvian corn.
+                            <span className="block mt-2 italic">🔸 Spicy</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Ceviche Mixto */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/45fb30b5-a900-45f0-a9f0-c1a6da8cf563.png" 
+                            alt="Ceviche Mixto" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb
