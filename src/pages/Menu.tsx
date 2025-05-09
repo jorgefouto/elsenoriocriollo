@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -597,11 +596,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Trio Marino - Fixed the image path */}
+                      {/* Trio Marino - Updated with new uploaded image */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/67cc83b1-66c5-4689-899c-13fa76a1b7d5.png" 
+                            src="/lovable-uploads/15d42278-6ab5-4945-8a20-563671b23f3c.png" 
                             alt="Trio Marino" 
                             className="w-full h-full object-cover"
                           />
@@ -609,11 +608,52 @@ const Menu = () => {
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
                             <h3 className="text-xl font-serif text-restaurant-light">Trio Marino</h3>
-                            <span className="text-restaurant-gold">£24.00</span>
+                            <span className="text-restaurant-gold">£23.00</span>
                           </div>
                           <p className="text-gray-400">
-                            A combination of fish ceviche, fried fish, and seafood rice.
+                            Plate featuring fish ceviche, crispy fried fish, and seafood rice.
                             <span className="block mt-2 italic">🔸 Spicy</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Arroz con Mariscos - Updated with image from Chaufa de Mariscos */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/15f2c05c-0c4f-4184-9411-89516faf79dd.png" 
+                            alt="Arroz con Mariscos" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Arroz con Mariscos</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Portion of rice with prawns, mussels, and squid sautéed with white wine and spices.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Ceviche de Pescado - Updated with image from Chicharrón de Pescado */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/18c9c608-1cfa-4cab-9936-ec8177742604.png" 
+                            alt="Ceviche de Pescado" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Ceviche de Pescado</h3>
+                            <span className="text-restaurant-gold">£16.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh raw fish cured in lime juice, mixed with red onion, chili, and cilantro. Served with sweet potato, corn, and cancha (toasted corn).
+                            <span className="block mt-2 italic">🔸 Spicy | 🐟 Contains fish</span>
                           </p>
                         </div>
                       </div>
@@ -622,7 +662,7 @@ const Menu = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             {/* Grilled Chicken Menu Content */}
             <TabsContent value="grilled-chicken">
               <div className="space-y-12">
@@ -631,82 +671,62 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      {/* 1/2 Pollo a la Brasa */}
+                      {/* Pollo a la Brasa */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/e04b1f9a-5d9b-449b-b7c8-d7dad115fdd0.png" 
-                            alt="1/2 Pollo a la Brasa + Patatas + Ensaladas y Cremas" 
+                            src="/lovable-uploads/869d0c62-2cc5-4a36-9567-2bea455a41d3.png" 
+                            alt="Pollo a la Brasa" 
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">1/2 Pollo a la Brasa + Patatas + Ensaladas y Cremas</h3>
-                            <span className="text-restaurant-gold">£16.00</span>
+                            <h3 className="text-xl font-serif text-restaurant-light">Pollo a la Brasa (1/4)</h3>
+                            <span className="text-restaurant-gold">£12.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Half a grilled chicken served with fried potatoes, salad, and Peruvian sauces.
+                            Quarter of rotisserie chicken marinated in Peruvian spices, slow-roasted over hot coals. Served with French fries and a fresh salad.
                           </p>
                         </div>
                       </div>
 
-                      {/* 1/4 de Pollo a la Brasa */}
+                      {/* Pollo a la Brasa (1/2) */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/5fbd0932-1246-4ffe-a8eb-6b1cc803ce0e.png" 
-                            alt="1/4 de Pollo a la Brasa + Patatas + Ensalada y Cremas" 
+                            src="/lovable-uploads/b2ec2c36-118b-4dff-92ca-bc9120917bc9.png" 
+                            alt="Pollo a la Brasa (1/2)" 
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">1/4 de Pollo a la Brasa + Patatas + Ensalada y Cremas</h3>
-                            <span className="text-restaurant-gold">£9.00</span>
+                            <h3 className="text-xl font-serif text-restaurant-light">Pollo a la Brasa (1/2)</h3>
+                            <span className="text-restaurant-gold">£18.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Quarter grilled chicken served with French fries, marinated salad with vinaigrette, and Peruvian sauces.
+                            Half rotisserie chicken marinated in Peruvian spices, slow-roasted over hot coals. Served with French fries and a fresh salad.
                           </p>
                         </div>
                       </div>
 
-                      {/* 1 Pollo a la Brasa */}
+                      {/* Pollo a la Brasa (Entero) */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/fab89f8e-fcb9-426a-8704-6d83f5c2b433.png" 
-                            alt="1 Pollo a la Brasa + Patatas + Ensalada y Cremas" 
+                            src="/lovable-uploads/bb67ff27-397d-451a-9b5b-c479a1a3c65e.png" 
+                            alt="Pollo a la Brasa (Entero)" 
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">1 Pollo a la Brasa + Patatas + Ensalada y Cremas</h3>
-                            <span className="text-restaurant-gold">£30.00</span>
+                            <h3 className="text-xl font-serif text-restaurant-light">Pollo a la Brasa (Entero)</h3>
+                            <span className="text-restaurant-gold">£32.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Whole grilled chicken served with fried potatoes, salad, and Peruvian sauces.
-                          </p>
-                        </div>
-                      </div>
-
-                      {/* Mostrito */}
-                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
-                        <div className="relative h-52">
-                          <img 
-                            src="/lovable-uploads/47b0b0c7-a9b4-4120-93fb-227591d4c769.png" 
-                            alt="Mostrito" 
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="p-6">
-                          <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">Mostrito</h3>
-                            <span className="text-restaurant-gold">£16.00</span>
-                          </div>
-                          <p className="text-gray-400">
-                            A combo plate with 1/4 grilled chicken, fried potatoes, salad, Peruvian fried rice (chaufa), and sauces.
+                            Whole rotisserie chicken marinated in Peruvian spices, slow-roasted over hot coals. Served with extra large portions of French fries and a fresh salad.
                           </p>
                         </div>
                       </div>
@@ -715,7 +735,7 @@ const Menu = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             {/* Sopas/Soups Menu Content */}
             <TabsContent value="sopas-soups">
               <div className="space-y-12">
@@ -724,30 +744,31 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      {/* Placeholder for Soups menu items */}
+                      {/* Sopa a la Minuta */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/fea09301-97d7-46d6-87f2-1752c49c0b0e.png" 
-                            alt="Sopa de Pollo" 
+                            src="/lovable-uploads/7cf41d78-53fd-454d-ada5-914b9e299dc5.png" 
+                            alt="Sopa a la Minuta" 
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">Sopa de Pollo</h3>
-                            <span className="text-restaurant-gold">£12.00</span>
+                            <h3 className="text-xl font-serif text-restaurant-light">Sopa a la Minuta</h3>
+                            <span className="text-restaurant-gold">£10.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Traditional chicken soup with rice, potatoes, vegetables, and fresh herbs.
+                            Traditional Peruvian beef soup with angel hair pasta, milk, egg, and Peruvian spices. Served with lime and fresh herbs.
                           </p>
                         </div>
                       </div>
-                      
+
+                      {/* Aguadito de Pollo */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/b6962e41-c011-4541-a839-a6465e2c86f3.png" 
+                            src="/lovable-uploads/6a6d480e-f790-4706-a76d-07420b688840.png" 
                             alt="Aguadito de Pollo" 
                             className="w-full h-full object-cover"
                           />
@@ -755,10 +776,30 @@ const Menu = () => {
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
                             <h3 className="text-xl font-serif text-restaurant-light">Aguadito de Pollo</h3>
-                            <span className="text-restaurant-gold">£14.00</span>
+                            <span className="text-restaurant-gold">£10.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Peruvian chicken soup with a blend of cilantro, potatoes, peas, carrots, and rice.
+                            Peruvian chicken soup with rice, potatoes, peas, carrots, and cilantro. Slightly spicy and full of flavor.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Caldo de Gallina */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/6484075a-6faa-46a4-b2d4-97825797818b.png" 
+                            alt="Caldo de Gallina" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Caldo de Gallina</h3>
+                            <span className="text-restaurant-gold">£12.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Hearty hen soup with potatoes, noodles, and hard-boiled egg. A comforting Peruvian classic.
                           </p>
                         </div>
                       </div>
@@ -767,7 +808,7 @@ const Menu = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             {/* Guarniciones/Extras Menu Content */}
             <TabsContent value="guarniciones-extras">
               <div className="space-y-12">
@@ -776,10 +817,11 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Arroz Blanco */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/6e45f01f-ef93-47bc-abf1-fc9ec16fb722.png" 
+                            src="/lovable-uploads/51c2456c-781d-4375-bd3c-94e57c1fa8e6.png" 
                             alt="Arroz Blanco" 
                             className="w-full h-full object-cover"
                           />
@@ -787,18 +829,19 @@ const Menu = () => {
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
                             <h3 className="text-xl font-serif text-restaurant-light">Arroz Blanco</h3>
-                            <span className="text-restaurant-gold">£4.00</span>
+                            <span className="text-restaurant-gold">£3.00</span>
                           </div>
                           <p className="text-gray-400">
-                            White rice.
+                            Portion of steamed white rice, perfectly cooked.
                           </p>
                         </div>
                       </div>
-                      
+
+                      {/* Patatas Fritas */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/f68785f4-3b4a-403a-8dbc-b21d3e9f7ae8.png" 
+                            src="/lovable-uploads/4b0181c2-4a34-4d13-bd1f-cad70ee1c6bf.png" 
                             alt="Patatas Fritas" 
                             className="w-full h-full object-cover"
                           />
@@ -809,15 +852,36 @@ const Menu = () => {
                             <span className="text-restaurant-gold">£4.00</span>
                           </div>
                           <p className="text-gray-400">
-                            French fries.
+                            Portion of crispy French fries.
                           </p>
                         </div>
                       </div>
-                      
+
+                      {/* Ensalada */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/51c2456c-781d-4375-bd3c-94e57c1fa8e6.png" 
+                            src="/lovable-uploads/5ab6e8df-d2c9-42f1-b6d1-37a9807c3901.png" 
+                            alt="Ensalada" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Ensalada</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh mixed greens with tomatoes, cucumber, and red onion.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Yuca Frita */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/db7ce4c9-65e8-46bc-af80-88b690b940fa.png" 
                             alt="Yuca Frita" 
                             className="w-full h-full object-cover"
                           />
@@ -828,26 +892,7 @@ const Menu = () => {
                             <span className="text-restaurant-gold">£5.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Fried cassava.
-                          </p>
-                        </div>
-                      </div>
-                      
-                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
-                        <div className="relative h-52">
-                          <img 
-                            src="/lovable-uploads/0ee0ea0f-b4a9-4cc6-a12a-18031eea8d6d.png" 
-                            alt="Ensalada Mixta" 
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="p-6">
-                          <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">Ensalada Mixta</h3>
-                            <span className="text-restaurant-gold">£4.50</span>
-                          </div>
-                          <p className="text-gray-400">
-                            Mixed salad with lettuce, tomato, cucumber, and onion.
+                            Fried cassava sticks, crispy outside and soft inside.
                           </p>
                         </div>
                       </div>
@@ -856,7 +901,7 @@ const Menu = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             {/* Dulces/Dessert Menu Content */}
             <TabsContent value="dulces-dessert">
               <div className="space-y-12">
@@ -865,40 +910,82 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Crema Volteada */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/ad31357b-5b83-4241-a675-52d4f9912642.png" 
-                            alt="Suspiro Limeño" 
+                            src="/lovable-uploads/1df58d52-a620-4cd4-b689-e54b756dad27.png" 
+                            alt="Crema Volteada" 
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">Suspiro Limeño</h3>
-                            <span className="text-restaurant-gold">£8.00</span>
+                            <h3 className="text-xl font-serif text-restaurant-light">Crema Volteada</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Traditional Peruvian dessert with dulce de leche base topped with port wine meringue.
+                            Traditional Peruvian-style flan made with eggs, milk, and caramel, baked to a smooth and silky texture.
                           </p>
                         </div>
                       </div>
-                      
+
+                      {/* Gelatina */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/bb67ff27-397d-451a-9b5b-c479a1a3c65e.png" 
-                            alt="Tres Leches" 
+                            src="/lovable-uploads/f68785f4-3b4a-403a-8dbc-b21d3e9f7ae8.png" 
+                            alt="Gelatina" 
                             className="w-full h-full object-cover"
                           />
                         </div>
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">Tres Leches</h3>
-                            <span className="text-restaurant-gold">£7.50</span>
+                            <h3 className="text-xl font-serif text-restaurant-light">Gelatina</h3>
+                            <span className="text-restaurant-gold">£3.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Sponge cake soaked in three kinds of milk: evaporated milk, condensed milk, and cream.
+                            Classic fruit-flavored jelly served chilled.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Gelatina con Flan */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/fe8eaef3-9f09-4ee0-a65b-cf5d8fdf6641.png" 
+                            alt="Gelatina con Flan" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Gelatina con Flan</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Layered dessert combining creamy vanilla flan with fruit-flavored jelly.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Torta de 3 Leches */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/ccb03743-2004-4d31-823d-4a5ba5b14e5b.png" 
+                            alt="Torta de 3 Leches" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Torta de 3 Leches</h3>
+                            <span className="text-restaurant-gold">£5.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Moist sponge cake soaked in three kinds of milk: evaporated, condensed, and cream, topped with whipped cream.
                           </p>
                         </div>
                       </div>
@@ -907,7 +994,7 @@ const Menu = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             {/* Refrescos Naturales Menu Content */}
             <TabsContent value="refrescos-naturales">
               <div className="space-y-12">
@@ -916,10 +1003,11 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Chicha Morada */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/9f1c5023-2a74-4008-8ab0-edd2bb549bfb.png" 
+                            src="/lovable-uploads/54a10214-965b-4b78-a9ef-a7229840f913.png" 
                             alt="Chicha Morada" 
                             className="w-full h-full object-cover"
                           />
@@ -927,18 +1015,19 @@ const Menu = () => {
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
                             <h3 className="text-xl font-serif text-restaurant-light">Chicha Morada</h3>
-                            <span className="text-restaurant-gold">£4.50</span>
+                            <span className="text-restaurant-gold">£4.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Traditional Peruvian drink made from purple corn, with pineapple, cinnamon, clove, and lime.
+                            Traditional Peruvian purple corn drink, flavored with pineapple, cinnamon, clove, and lime.
                           </p>
                         </div>
                       </div>
-                      
+
+                      {/* Maracuyá */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/d9f05352-32d9-4d6c-891c-20b58a2d6168.png" 
+                            src="/lovable-uploads/1e468940-fa8e-49e1-b7b8-04cd700f698c.png" 
                             alt="Maracuyá" 
                             className="w-full h-full object-cover"
                           />
@@ -946,10 +1035,30 @@ const Menu = () => {
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
                             <h3 className="text-xl font-serif text-restaurant-light">Maracuyá</h3>
-                            <span className="text-restaurant-gold">£4.50</span>
+                            <span className="text-restaurant-gold">£3.50</span>
                           </div>
                           <p className="text-gray-400">
-                            Passion fruit juice.
+                            Fresh passion fruit juice, sweet and tangy.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Limonada */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/3b27d420-c2a4-43d5-bec4-35b03c87fe19.png" 
+                            alt="Limonada" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Limonada</h3>
+                            <span className="text-restaurant-gold">£3.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh squeezed lime juice sweetened with sugar.
                           </p>
                         </div>
                       </div>
@@ -958,7 +1067,7 @@ const Menu = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             {/* Cervezas y Cocteles Menu Content */}
             <TabsContent value="cervezas-cocteles">
               <div className="space-y-12">
@@ -967,10 +1076,31 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Corona Extra */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/0752bdbf-b007-415d-82f7-4bc23fbc2280.png" 
+                            src="/lovable-uploads/0ee0ea0f-b4a9-4cc6-a12a-18031eea8d6d.png" 
+                            alt="Corona Extra" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Corona Extra 330 ml</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Imported Mexican beer served in a 330ml bottle.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Pisco Sour */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/0479b847-30b5-42f6-9e2d-247ebb2f49c2.png" 
                             alt="Pisco Sour" 
                             className="w-full h-full object-cover"
                           />
@@ -978,29 +1108,10 @@ const Menu = () => {
                         <div className="p-6">
                           <div className="flex justify-between items-baseline mb-2">
                             <h3 className="text-xl font-serif text-restaurant-light">Pisco Sour</h3>
-                            <span className="text-restaurant-gold">£9.00</span>
+                            <span className="text-restaurant-gold">£10.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Classic Peruvian cocktail made with pisco, lime juice, simple syrup, egg white, and bitters.
-                          </p>
-                        </div>
-                      </div>
-                      
-                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
-                        <div className="relative h-52">
-                          <img 
-                            src="/lovable-uploads/54a10214-965b-4b78-a9ef-a7229840f913.png" 
-                            alt="Cerveza Cusqueña" 
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div className="p-6">
-                          <div className="flex justify-between items-baseline mb-2">
-                            <h3 className="text-xl font-serif text-restaurant-light">Cerveza Cusqueña</h3>
-                            <span className="text-restaurant-gold">£5.50</span>
-                          </div>
-                          <p className="text-gray-400">
-                            Premium Peruvian beer.
+                            Traditional Peruvian cocktail made with pisco, syrup, lemon juice, and egg whites.
                           </p>
                         </div>
                       </div>
@@ -1009,7 +1120,7 @@ const Menu = () => {
                 </div>
               </div>
             </TabsContent>
-            
+
             {/* Gaseosas/Soft Drinks Menu Content */}
             <TabsContent value="soft-drinks">
               <div className="space-y-12">
@@ -1018,10 +1129,31 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Coca Cola */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/45662ba8-8495-4f1d-ba42-0aa50ec5cb61.png" 
+                            src="/lovable-uploads/7552ec36-166d-4415-9285-5e12e52392eb.png" 
+                            alt="Coca Cola" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Coca Cola</h3>
+                            <span className="text-restaurant-gold">£2.50</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Classic cola served in a 330ml can or bottle.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Inca Kola */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/ec723faa-8fbb-4d67-90a5-309a990cef70.png" 
                             alt="Inca Kola" 
                             className="w-full h-full object-cover"
                           />
@@ -1032,15 +1164,16 @@ const Menu = () => {
                             <span className="text-restaurant-gold">£2.50</span>
                           </div>
                           <p className="text-gray-400">
-                            Peruvian yellow soft drink with a unique sweet flavor.
+                            Peru's favorite soft drink, with a unique fruity flavor.
                           </p>
                         </div>
                       </div>
-                      
+
+                      {/* Agua Mineral */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/4b0181c2-4a34-4d13-bd1f-cad70ee1c6bf.png" 
+                            src="/lovable-uploads/1f995c50-0784-42a5-8a12-ffe8ce56446b.png" 
                             alt="Agua Mineral" 
                             className="w-full h-full object-cover"
                           />
@@ -1051,7 +1184,7 @@ const Menu = () => {
                             <span className="text-restaurant-gold">£2.00</span>
                           </div>
                           <p className="text-gray-400">
-                            Still or sparkling mineral water.
+                            Still or sparkling mineral water, 500ml bottle.
                           </p>
                         </div>
                       </div>
@@ -1061,8 +1194,8 @@ const Menu = () => {
               </div>
             </TabsContent>
           </Tabs>
-          <Footer />
         </div>
+        <Footer />
       </ScrollArea>
     </div>
   );
