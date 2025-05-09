@@ -664,7 +664,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/0752bdbf-b007-415d-82f7-4bc23fbc2280.png" 
+                            src="/lovable-uploads/ccb03743-2004-4d31-823d-4a5ba5b14e5b.png" 
                             alt="Fanta (Can)" 
                             className="w-full h-full object-cover"
                           />
