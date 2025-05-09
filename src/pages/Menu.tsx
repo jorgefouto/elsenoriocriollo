@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -45,7 +44,7 @@ const Menu = () => {
               </TabsList>
             </div>
 
-            {/* Peruvian Starters Menu */}
+            {/* Starters Menu Content */}
             <TabsContent value="starters">
               <div className="space-y-12">
                 <div>
@@ -205,7 +204,7 @@ const Menu = () => {
               </div>
             </TabsContent>
             
-            {/* Platos Criollos Menu */}
+            {/* Platos Criollos Menu Content */}
             <TabsContent value="platos-criollos">
               <div className="space-y-12">
                 <div>
@@ -438,7 +437,7 @@ const Menu = () => {
               </div>
             </TabsContent>
             
-            {/* Pescados y Mariscos Menu */}
+            {/* Pescados y Mariscos Menu Content */}
             <TabsContent value="pescados-mariscos">
               <div className="space-y-12">
                 <div>
@@ -633,7 +632,7 @@ const Menu = () => {
               </div>
             </TabsContent>
             
-            {/* Soft Drinks Menu */}
+            {/* Soft Drinks Menu - UPDATED WITH NEW IMAGES */}
             <TabsContent value="soft-drinks">
               <div className="space-y-12">
                 <div>
@@ -645,7 +644,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/6484075a-6faa-46a4-b2d4-97825797818b.png" 
+                            src="/lovable-uploads/f68785f4-3b4a-403a-8dbc-b21d3e9f7ae8.png" 
                             alt="Coca Cola (Can)" 
                             className="w-full h-full object-cover"
                           />
@@ -665,7 +664,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/1f995c50-0784-42a5-8a12-ffe8ce56446b.png" 
+                            src="/lovable-uploads/0752bdbf-b007-415d-82f7-4bc23fbc2280.png" 
                             alt="Fanta (Can)" 
                             className="w-full h-full object-cover"
                           />
@@ -685,7 +684,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/1e468940-fa8e-49e1-b7b8-04cd700f698c.png" 
+                            src="/lovable-uploads/ea82aa6e-5e1c-40d8-b149-29c26a0103fd.png" 
                             alt="Inka Kola" 
                             className="w-full h-full object-cover"
                           />
@@ -705,7 +704,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/0ee0ea0f-b4a9-4cc6-a12a-18031eea8d6d.png" 
+                            src="/lovable-uploads/e4d17f2e-ab55-4016-9eba-e0f5120feb2c.png" 
                             alt="Manzana 2 Litros" 
                             className="w-full h-full object-cover"
                           />
@@ -725,7 +724,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/42e30f3a-69d6-4e33-ac16-1bc9cfb582d2.png" 
+                            src="/lovable-uploads/ec723faa-8fbb-4d67-90a5-309a990cef70.png" 
                             alt="Manzana 500ml" 
                             className="w-full h-full object-cover"
                           />
@@ -745,7 +744,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/54a10214-965b-4b78-a9ef-a7229840f913.png" 
+                            src="/lovable-uploads/0479b847-30b5-42f6-9e2d-247ebb2f49c2.png" 
                             alt="Tropical 2 Litros" 
                             className="w-full h-full object-cover"
                           />
@@ -765,7 +764,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/47b0b0c7-a9b4-4120-93fb-227591d4c769.png" 
+                            src="/lovable-uploads/869d0c62-2cc5-4a36-9567-2bea455a41d3.png" 
                             alt="Tropical 500ml" 
                             className="w-full h-full object-cover"
                           />
@@ -785,7 +784,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/7cf41d78-53fd-454d-ada5-914b9e299dc5.png" 
+                            src="/lovable-uploads/b1cfea20-641e-4ed7-b384-9200e1816b5a.png" 
                             alt="7UP (Can)" 
                             className="w-full h-full object-cover"
                           />
@@ -805,7 +804,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/4b0181c2-4a34-4d13-bd1f-cad70ee1c6bf.png" 
+                            src="/lovable-uploads/52d40c86-069d-47cf-bd5c-fd1a912781f3.png" 
                             alt="America / Andin's Cristal 2 Litros" 
                             className="w-full h-full object-cover"
                           />
@@ -825,7 +824,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/8bedc89f-5c55-4860-85de-c89e3e61eb54.png" 
+                            src="/lovable-uploads/6a6d480e-f790-4706-a76d-07420b688840.png" 
                             alt="America / Andin's Cristal 500ml" 
                             className="w-full h-full object-cover"
                           />
@@ -845,7 +844,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/0377053b-8dde-471f-9bdc-142f4a31f2d9.png" 
+                            src="/lovable-uploads/7727ac48-1ec0-4c0e-b395-5deb6d615294.png" 
                             alt="Coca Cola 1.75 Litros" 
                             className="w-full h-full object-cover"
                           />
@@ -866,7 +865,7 @@ const Menu = () => {
               </div>
             </TabsContent>
             
-            {/* Placeholder for other tab contents */}
+            {/* Placeholder tabs content */}
             <TabsContent value="grilled-chicken">
               <div className="flex items-center justify-center p-10 min-h-[300px]">
                 <p className="text-gray-400 text-lg">Coming soon!</p>
