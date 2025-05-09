@@ -644,7 +644,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/f68785f4-3b4a-403a-8dbc-b21d3e9f7ae8.png" 
+                            src="/lovable-uploads/5ab6e8df-d2c9-42f1-b6d1-37a9807c3901.png" 
                             alt="Coca Cola (Can)" 
                             className="w-full h-full object-cover"
                           />
