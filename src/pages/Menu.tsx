@@ -38,6 +38,9 @@ const Menu = () => {
                 <TabsTrigger value="guarniciones-extras" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Guarniciones/Extras
                 </TabsTrigger>
+                <TabsTrigger value="dulces-dessert" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
+                  Dulces/Dessert
+                </TabsTrigger>
                 <TabsTrigger value="refrescos-naturales" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Refrescos Naturales
                 </TabsTrigger>
@@ -629,6 +632,99 @@ const Menu = () => {
                           </div>
                           <p className="text-gray-400">
                             Fresh raw fish cured in citrus juice (lime), spiced with ají, and mixed with chopped onions, salt, and coriander.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Dulces/Dessert Menu Content */}
+            <TabsContent value="dulces-dessert">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Dulces / Dessert</h2>
+                  
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Crema Volteada */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/483241f2-1d5c-46a3-b643-83f5c1f8a57b.png" 
+                            alt="Crema Volteada" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Crema Volteada</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Traditional Peruvian-style flan made with eggs, milk, and caramel, baked to a smooth and silky texture.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Gelatina */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/25abc885-7373-4d7b-b2f5-928f219f3d3c.png" 
+                            alt="Gelatina" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Gelatina</h3>
+                            <span className="text-restaurant-gold">£3.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Classic fruit-flavored jelly served chilled.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Gelatina con Flan */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/afd5e0b3-813f-485c-817d-a3a8753615cc.png" 
+                            alt="Gelatina con Flan" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Gelatina con Flan</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Layered dessert combining creamy vanilla flan with fruit-flavored jelly.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Torta de 3 Leches */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/45662ba8-8495-4f1d-ba42-0aa50ec5cb61.png" 
+                            alt="Torta de 3 Leches" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Torta de 3 Leches</h3>
+                            <span className="text-restaurant-gold">£5.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Moist sponge cake soaked in three kinds of milk: evaporated, condensed, and cream, topped with whipped cream.
                           </p>
                         </div>
                       </div>
