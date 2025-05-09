@@ -455,6 +455,27 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Ceviche Mixto - New item added */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/99fe47c0-eb19-4c23-abf6-70ee505d7112.png" 
+                            alt="Ceviche Mixto" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Ceviche Mixto</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh raw fish, baby prawns, mussels, and squid cured in citrus juice (lime), spiced with ají, and mixed with chopped onions, salt, and coriander. Served with sweet potato and Peruvian corn.
+                            <span className="block mt-2 italic">🔸 Spicy | 🐟 Contains fish</span>
+                          </p>
+                        </div>
+                      </div>
+
                       {/* Chaufa de Mariscos - Updated with image from Duo Marino */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
