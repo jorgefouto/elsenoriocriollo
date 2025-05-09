@@ -455,11 +455,11 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      {/* Chaufa de Mariscos */}
+                      {/* Chaufa de Mariscos - Updated with image from Duo Marino */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/15f2c05c-0c4f-4184-9411-89516faf79dd.png" 
+                            src="/lovable-uploads/169bde92-b26b-45d6-9acb-c12699d7ca43.png" 
                             alt="Chaufa de Mariscos" 
                             className="w-full h-full object-cover"
                           />
@@ -475,11 +475,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Chicharrón de Pescado */}
+                      {/* Chicharrón de Pescado - Updated with image from Jalea */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/18c9c608-1cfa-4cab-9936-ec8177742604.png" 
+                            src="/lovable-uploads/a8ba1d1c-1bdc-4e23-88ca-1e2781574152.png" 
                             alt="Chicharrón de Pescado" 
                             className="w-full h-full object-cover"
                           />
@@ -495,11 +495,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Choritos a la Chalaca */}
+                      {/* Choritos a la Chalaca - Updated with image from Ronda Marina */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/fab89f8e-fcb9-426a-8704-6d83f5c2b433.png" 
+                            src="/lovable-uploads/97d0f5a9-8f88-44ba-91c2-529bfd695fa8.png" 
                             alt="Choritos a la Chalaca" 
                             className="w-full h-full object-cover"
                           />
@@ -515,11 +515,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Duo Marino */}
+                      {/* Duo Marino - Updated with image from Trio Marino */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/169bde92-b26b-45d6-9acb-c12699d7ca43.png" 
+                            src="/lovable-uploads/a0a7cc6a-129d-48af-bc2f-9313705abe65.png" 
                             alt="Duo Marino" 
                             className="w-full h-full object-cover"
                           />
@@ -536,11 +536,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Jalea */}
+                      {/* Jalea - Updated with image from Arroz con Mariscos */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/a8ba1d1c-1bdc-4e23-88ca-1e2781574152.png" 
+                            src="/lovable-uploads/5177fa17-3770-43bf-b443-afda3ebcef40.png" 
                             alt="Jalea" 
                             className="w-full h-full object-cover"
                           />
@@ -556,11 +556,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Ronda Marina */}
+                      {/* Ronda Marina - Updated with image from Ceviche de Pescado */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/97d0f5a9-8f88-44ba-91c2-529bfd695fa8.png" 
+                            src="/lovable-uploads/2f1d71cc-01d8-4aeb-954d-921ba1b8d15c.png" 
                             alt="Ronda Marina" 
                             className="w-full h-full object-cover"
                           />
@@ -576,11 +576,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Trio Marino */}
+                      {/* Trio Marino - Updated with new uploaded image */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/a0a7cc6a-129d-48af-bc2f-9313705abe65.png" 
+                            src="/lovable-uploads/15d42278-6ab5-4945-8a20-563671b23f3c.png" 
                             alt="Trio Marino" 
                             className="w-full h-full object-cover"
                           />
@@ -597,11 +597,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Arroz con Mariscos */}
+                      {/* Arroz con Mariscos - Updated with image from Chaufa de Mariscos */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/5177fa17-3770-43bf-b443-afda3ebcef40.png" 
+                            src="/lovable-uploads/15f2c05c-0c4f-4184-9411-89516faf79dd.png" 
                             alt="Arroz con Mariscos" 
                             className="w-full h-full object-cover"
                           />
@@ -617,11 +617,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Ceviche de Pescado */}
+                      {/* Ceviche de Pescado - Updated with image from Chicharrón de Pescado */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/2f1d71cc-01d8-4aeb-954d-921ba1b8d15c.png" 
+                            src="/lovable-uploads/18c9c608-1cfa-4cab-9936-ec8177742604.png" 
                             alt="Ceviche de Pescado" 
                             className="w-full h-full object-cover"
                           />
