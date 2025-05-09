@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -125,11 +124,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Papa a la Huancaína */}
+                      {/* Papa a la Huancaína - UPDATED IMAGE from Salchipapa */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/67cc83b1-66c5-4689-899c-13fa76a1b7d5.png" 
+                            src="/lovable-uploads/53369597-fd45-444a-a83b-403f7fce5d4d.png" 
                             alt="Papa a la Huancaína" 
                             className="w-full h-full object-cover"
                           />
@@ -146,11 +145,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Salchipapa */}
+                      {/* Salchipapa - UPDATED IMAGE from Leche de Tigre */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/53369597-fd45-444a-a83b-403f7fce5d4d.png" 
+                            src="/lovable-uploads/424595e4-fbfb-445c-9588-08ddd3eaf64e.png" 
                             alt="Salchipapa" 
                             className="w-full h-full object-cover"
                           />
@@ -167,11 +166,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Leche de Tigre */}
+                      {/* Leche de Tigre - UPDATED with NEW IMAGE */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/424595e4-fbfb-445c-9588-08ddd3eaf64e.png" 
+                            src="/lovable-uploads/d84950c6-d768-4ca2-8062-5908af366c4f.png" 
                             alt="Leche de Tigre" 
                             className="w-full h-full object-cover"
                           />
