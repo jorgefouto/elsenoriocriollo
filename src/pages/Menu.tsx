@@ -24,7 +24,7 @@ const Menu = () => {
               <TabsTrigger value="platos-criollos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Platos Criollos</TabsTrigger>
               <TabsTrigger value="pescados-mariscos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Pescados y Mariscos</TabsTrigger>
               <TabsTrigger value="grilled-chicken" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Grilled Chicken</TabsTrigger>
-              <TabsTrigger value="wine" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Wine</TabsTrigger>
+              <TabsTrigger value="sopas-soups" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Sopas/Soups</TabsTrigger>
             </TabsList>
 
             {/* Peruvian Starters Menu */}
@@ -730,12 +730,96 @@ const Menu = () => {
               </div>
             </TabsContent>
 
-            {/* Wine Menu - Placeholder */}
-            <TabsContent value="wine">
+            {/* Sopas/Soups Menu */}
+            <TabsContent value="sopas-soups">
               <div className="space-y-12">
                 <div>
-                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Wine Selection</h2>
-                  <p className="text-gray-400">Our wine menu is coming soon. Please check back later.</p>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Sopas/Soups</h2>
+                  
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Caldo de Gallina */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/d9f05352-32d9-4d6c-891c-20b58a2d6168.png"
+                            alt="Caldo de Gallina" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Caldo de Gallina</h3>
+                            <span className="text-restaurant-gold">£10.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Hen broth with chicken leg, carrot, yellow potato, celery, white onion, and egg.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Chupe de Camarones */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/1203177f-1d1c-4bf1-91f9-90ab1f6427ad.png"
+                            alt="Chupe de Camarones" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Chupe de Camarones</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Creamy shrimp soup with river prawns, yellow potatoes, fresh cheese, milk, broad beans, peas, corn, rice, and egg. Finished with a red pepper and huacatay (Peruvian herb) dressing.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Parihuela */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/0377053b-8dde-471f-9bdc-142f4a31f2d9.png"
+                            alt="Parihuela" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Parihuela</h3>
+                            <span className="text-restaurant-gold">£22.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Spicy seafood soup with scallops, crab, mussels, and octopus. Seasoned with Peruvian spices, yellow and panca peppers, and an acidic touch of lemon, beer, chicha de jora, or wine.
+                            <span className="block mt-2 italic">🔸 Spicy</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Sustancia de Carne */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/5fbd0932-1246-4ffe-a8eb-6b1cc803ce0e.png"
+                            alt="Sustancia de Carne" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Sustancia de Carne</h3>
+                            <span className="text-restaurant-gold">£10.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Hearty beef soup made with minced beef, fresh oregano, soy sauce, potatoes, angel hair noodles, egg, and Chinese onion.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </TabsContent>
