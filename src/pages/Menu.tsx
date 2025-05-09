@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -620,4 +621,130 @@ const Menu = () => {
                           />
                         </div>
                         <div className="p-6">
-                          <div className="flex justify-between items-baseline
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Ceviche Mixto</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh raw fish, baby prawns, mussels, and squid cured in citrus juice (lime), spiced with ají, and mixed with chopped onions, salt, and coriander. Served with sweet potato and Peruvian corn.
+                            <span className="block mt-2 italic">🔸 Spicy</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Grilled Chicken Menu */}
+            <TabsContent value="grilled-chicken">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Grilled Chicken</h2>
+                  
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* 1/2 Pollo a la Brasa */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/1f52ff1a-6c1a-484a-bbbd-7a0d1ab49fdc.png"
+                            alt="1/2 Pollo a la Brasa + Patatas + Ensaladas y Cremas" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">1/2 Pollo a la Brasa + Patatas + Ensaladas y Cremas</h3>
+                            <span className="text-restaurant-gold">£16.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Half a grilled chicken served with fried potatoes, salad, and Peruvian sauces.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* 1/4 de Pollo a la Brasa */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/5d7e9be6-c128-48c7-9516-2efdd4d9b0fc.png"
+                            alt="1/4 de Pollo a la Brasa + Patatas + Ensalada y Cremas" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">1/4 de Pollo a la Brasa + Patatas + Ensalada y Cremas</h3>
+                            <span className="text-restaurant-gold">£9.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Quarter grilled chicken served with French fries, marinated salad with vinaigrette, and Peruvian sauces.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* 1 Pollo a la Brasa */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/505b76ab-f758-4669-bf3a-c75945b453c4.png"
+                            alt="1 Pollo a la Brasa + Patatas + Ensalada y Cremas" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">1 Pollo a la Brasa + Patatas + Ensalada y Cremas</h3>
+                            <span className="text-restaurant-gold">£30.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Whole grilled chicken served with fried potatoes, salad, and Peruvian sauces.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Mostrito */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/51c2456c-781d-4375-bd3c-94e57c1fa8e6.png"
+                            alt="Mostrito" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Mostrito</h3>
+                            <span className="text-restaurant-gold">£16.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            A combo plate with 1/4 grilled chicken, fried potatoes, salad, Peruvian fried rice (chaufa), and sauces.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+
+            {/* Wine Menu - Placeholder */}
+            <TabsContent value="wine">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Wine Selection</h2>
+                  <p className="text-gray-400">Our wine menu is coming soon. Please check back later.</p>
+                </div>
+              </div>
+            </TabsContent>
+          </Tabs>
+        </div>
+        <Footer />
+      </ScrollArea>
+    </div>
+  );
+};
+
+export default Menu;
