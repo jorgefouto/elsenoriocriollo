@@ -671,6 +671,26 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* 1/2 Pollo a la Brasa */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/b44a7b08-72a6-4e41-957d-2d4ad3cf8643.png" 
+                            alt="1/2 Pollo a la Brasa" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">1/2 Pollo a la Brasa + Patatas + Ensaladas y Cremas</h3>
+                            <span className="text-restaurant-gold">£16.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Half a grilled chicken served with fried potatoes, salad, and Peruvian sauces.
+                          </p>
+                        </div>
+                      </div>
+
                       {/* Pollo a la Brasa */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
