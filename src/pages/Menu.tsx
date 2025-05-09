@@ -649,7 +649,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/1f52ff1a-6c1a-484a-bbbd-7a0d1ab49fdc.png"
+                            src="/lovable-uploads/f9505d1a-5ee2-4ca1-91f4-f5828a045ffc.png"
                             alt="1/2 Pollo a la Brasa + Patatas + Ensaladas y Cremas" 
                             className="w-full h-full object-cover"
                           />
@@ -669,7 +669,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/5d7e9be6-c128-48c7-9516-2efdd4d9b0fc.png"
+                            src="/lovable-uploads/47b0b0c7-a9b4-4120-93fb-227591d4c769.png"
                             alt="1/4 de Pollo a la Brasa + Patatas + Ensalada y Cremas" 
                             className="w-full h-full object-cover"
                           />
@@ -689,7 +689,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/505b76ab-f758-4669-bf3a-c75945b453c4.png"
+                            src="/lovable-uploads/6e45f01f-ef93-47bc-abf1-fc9ec16fb722.png"
                             alt="1 Pollo a la Brasa + Patatas + Ensalada y Cremas" 
                             className="w-full h-full object-cover"
                           />
@@ -709,7 +709,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/51c2456c-781d-4375-bd3c-94e57c1fa8e6.png"
+                            src="/lovable-uploads/54a10214-965b-4b78-a9ef-a7229840f913.png"
                             alt="Mostrito" 
                             className="w-full h-full object-cover"
                           />
