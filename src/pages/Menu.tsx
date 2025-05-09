@@ -805,7 +805,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/52d40c86-069d-47cf-bd5c-fd1a912781f3.png" 
+                            src="/lovable-uploads/a4193c9f-cbe4-4c1d-a8a6-a65da0df550a.png" 
                             alt="America / Andin's Cristal 2 Litros" 
                             className="w-full h-full object-cover"
                           />
