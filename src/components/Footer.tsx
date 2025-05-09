@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-xl font-serif text-restaurant-gold mb-4">Savory</h3>
+            <h3 className="text-xl font-serif text-restaurant-gold mb-4">El Señorio Criollo</h3>
             <p className="text-gray-400 mb-6">
               A modern dining experience with classic influences, offering innovative cuisine in an elegant atmosphere.
             </p>
@@ -114,7 +114,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Savory Restaurant. All rights reserved.
+            &copy; {new Date().getFullYear()} El Señorio Criollo. All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm">
             <Link to="/privacy" className="text-gray-500 hover:text-restaurant-gold transition-colors">
