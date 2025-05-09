@@ -38,6 +38,9 @@ const Menu = () => {
                 <TabsTrigger value="guarniciones-extras" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Guarniciones/Extras
                 </TabsTrigger>
+                <TabsTrigger value="refrescos-naturales" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
+                  Refrescos Naturales
+                </TabsTrigger>
                 <TabsTrigger value="soft-drinks" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Gaseosas/Soft Drinks
                 </TabsTrigger>
@@ -623,6 +626,39 @@ const Menu = () => {
                           </div>
                           <p className="text-gray-400">
                             Fresh raw fish cured in citrus juice (lime), spiced with ají, and mixed with chopped onions, salt, and coriander.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Refrescos Naturales Menu Content */}
+            <TabsContent value="refrescos-naturales">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Refrescos Naturales</h2>
+                  
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Jarra de Chicha Morada */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/d42e852c-3916-4c67-98ef-583e2252bf5a.png" 
+                            alt="Jarra de Chicha Morada" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Jarra de Chicha Morada 1 Litro</h3>
+                            <span className="text-restaurant-gold">£10.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Purple corn juice made from a traditional Peruvian recipe, infused with fruits such as pineapple, quince, or apple. A naturally sweet and antioxidant-rich drink native to the Andes.
                           </p>
                         </div>
                       </div>
