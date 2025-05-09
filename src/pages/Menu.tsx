@@ -41,6 +41,9 @@ const Menu = () => {
                 <TabsTrigger value="refrescos-naturales" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Refrescos Naturales
                 </TabsTrigger>
+                <TabsTrigger value="cervezas-cocteles" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
+                  Cervezas y Cocteles
+                </TabsTrigger>
                 <TabsTrigger value="soft-drinks" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Gaseosas/Soft Drinks
                 </TabsTrigger>
@@ -659,6 +662,59 @@ const Menu = () => {
                           </div>
                           <p className="text-gray-400">
                             Purple corn juice made from a traditional Peruvian recipe, infused with fruits such as pineapple, quince, or apple. A naturally sweet and antioxidant-rich drink native to the Andes.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Cervezas y Cocteles Menu Content */}
+            <TabsContent value="cervezas-cocteles">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Cervezas y Cocteles</h2>
+                  
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Corona Extra */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/7552ec36-166d-4415-9285-5e12e52392eb.png" 
+                            alt="Corona Extra" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Corona Extra 330 ml</h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Imported Mexican beer served in a 330ml bottle.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Pisco Sour */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/67cc83b1-66c5-4689-899c-13fa76a1b7d5.png" 
+                            alt="Pisco Sour" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Pisco Sour</h3>
+                            <span className="text-restaurant-gold">£10.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Traditional Peruvian cocktail made with pisco, syrup, lemon juice, and egg whites.
                           </p>
                         </div>
                       </div>
