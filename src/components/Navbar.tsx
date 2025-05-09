@@ -28,8 +28,8 @@ const Navbar = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-restaurant-dark shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-serif text-restaurant-gold">
-            SAVORY
+          <Link to="/" className="text-xl md:text-2xl font-serif text-restaurant-gold">
+            El Señorio Criollo
           </Link>
 
           {/* Desktop Menu */}
