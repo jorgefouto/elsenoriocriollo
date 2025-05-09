@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -620,4 +621,47 @@ const Menu = () => {
                           />
                         </div>
                         <div className="p-6">
-                          <div className="flex justify-between items-baseline mb
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Ceviche Mixto</h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh raw fish, baby prawns, mussels, and squid cured in citrus juice (lime), spiced with ají, and mixed with chopped onions, salt, and coriander. Served with sweet potato and Peruvian corn.
+                            <span className="block mt-2 italic">🔸 Spicy</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+
+            {/* Cocktails Menu - Placeholder */}
+            <TabsContent value="cocktails">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Cocktails</h2>
+                  <p className="text-gray-400">Our cocktail menu is coming soon. Please check back later.</p>
+                </div>
+              </div>
+            </TabsContent>
+
+            {/* Wine Menu - Placeholder */}
+            <TabsContent value="wine">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Wine Selection</h2>
+                  <p className="text-gray-400">Our wine menu is coming soon. Please check back later.</p>
+                </div>
+              </div>
+            </TabsContent>
+          </Tabs>
+        </div>
+        <Footer />
+      </ScrollArea>
+    </div>
+  );
+};
+
+export default Menu;
