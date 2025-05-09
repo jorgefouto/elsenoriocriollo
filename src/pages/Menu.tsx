@@ -645,11 +645,11 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      {/* 1/2 Pollo a la Brasa */}
+                      {/* 1/2 Pollo a la Brasa - SWAPPED with 1 Pollo */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/f9505d1a-5ee2-4ca1-91f4-f5828a045ffc.png"
+                            src="/lovable-uploads/6e45f01f-ef93-47bc-abf1-fc9ec16fb722.png"
                             alt="1/2 Pollo a la Brasa + Patatas + Ensaladas y Cremas" 
                             className="w-full h-full object-cover"
                           />
@@ -665,11 +665,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* 1/4 de Pollo a la Brasa */}
+                      {/* 1/4 de Pollo a la Brasa - SWAPPED with 1/2 Pollo */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/47b0b0c7-a9b4-4120-93fb-227591d4c769.png"
+                            src="/lovable-uploads/f9505d1a-5ee2-4ca1-91f4-f5828a045ffc.png"
                             alt="1/4 de Pollo a la Brasa + Patatas + Ensalada y Cremas" 
                             className="w-full h-full object-cover"
                           />
@@ -685,11 +685,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* 1 Pollo a la Brasa */}
+                      {/* 1 Pollo a la Brasa - SWAPPED with 1/4 Pollo */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/6e45f01f-ef93-47bc-abf1-fc9ec16fb722.png"
+                            src="/lovable-uploads/47b0b0c7-a9b4-4120-93fb-227591d4c769.png"
                             alt="1 Pollo a la Brasa + Patatas + Ensalada y Cremas" 
                             className="w-full h-full object-cover"
                           />
