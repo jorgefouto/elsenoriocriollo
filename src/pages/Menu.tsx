@@ -632,7 +632,7 @@ const Menu = () => {
               </div>
             </TabsContent>
             
-            {/* Soft Drinks Menu - UPDATED WITH NEW IMAGES */}
+            {/* Soft Drinks Menu Content */}
             <TabsContent value="soft-drinks">
               <div className="space-y-12">
                 <div>
@@ -684,7 +684,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/ea82aa6e-5e1c-40d8-b149-29c26a0103fd.png" 
+                            src="/lovable-uploads/b2ec2c36-118b-4dff-92ca-bc9120917bc9.png" 
                             alt="Inka Kola" 
                             className="w-full h-full object-cover"
                           />
