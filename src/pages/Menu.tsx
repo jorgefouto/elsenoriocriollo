@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -825,7 +824,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/6a6d480e-f790-4706-a76d-07420b688840.png" 
+                            src="/lovable-uploads/dd513bd2-9e99-4a00-8bda-688799bab97f.png" 
                             alt="America / Andin's Cristal 500ml" 
                             className="w-full h-full object-cover"
                           />
