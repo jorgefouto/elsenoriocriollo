@@ -871,11 +871,11 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Patatas / Papas Fritas */}
+                      {/* Patatas / Papas Fritas - Updated image */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/1203177f-1d1c-4bf1-91f9-90ab1f6427ad.png" 
+                            src="/lovable-uploads/fafe4db5-af35-494b-8257-88bd1af5528e.png" 
                             alt="Patatas / Papas Fritas" 
                             className="w-full h-full object-cover"
                           />
