@@ -454,7 +454,7 @@ const Menu = () => {
                   
                   <div className="space-y-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      {/* Ceviche Mixto - New item added */}
+                      {/* Ceviche Mixto */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
@@ -596,8 +596,131 @@ const Menu = () => {
                         </div>
                       </div>
 
-                      {/* Trio Marino - Updated with new uploaded image */}
+                      {/* Trio Marino - Fixed incomplete string */}
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img 
-                            src="/lovable-uploads/
+                            src="/lovable-uploads/fa8eaef3-9f09-4ee0-a65b-cf5d8fdf6641.png" 
+                            alt="Trio Marino" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">Trio Marino</h3>
+                            <span className="text-restaurant-gold">£25.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            A seafood sampler with three Peruvian specialties: ceviche, chicharrón de pescado, and rice with seafood.
+                            <span className="block mt-2 italic">🔸 Spicy | 🐟 Contains fish</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Grilled Chicken Menu Content */}
+            <TabsContent value="grilled-chicken">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Grilled Chicken</h2>
+                  
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* 1/4 de Pollo a la Brasa */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img 
+                            src="/lovable-uploads/3b27d420-c2a4-43d5-bec4-35b03c87fe19.png" 
+                            alt="1/4 de Pollo a la Brasa" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">1/4 de Pollo a la Brasa</h3>
+                            <span className="text-restaurant-gold">£9.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Quarter grilled chicken served with French fries, marinated salad with vinaigrette, and Peruvian sauces.
+                            <span className="block mt-2 italic">Our signature charcoal-grilled chicken.</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Sopas/Soups Menu Content */}
+            <TabsContent value="sopas-soups">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Sopas/Soups</h2>
+                  <p className="text-gray-400 mb-8">Coming soon - Check back for our homemade Peruvian soups.</p>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Guarniciones/Extras Menu Content */}
+            <TabsContent value="guarniciones-extras">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Guarniciones/Extras</h2>
+                  <p className="text-gray-400 mb-8">Coming soon - Check back for our sides and extras.</p>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Dulces/Dessert Menu Content */}
+            <TabsContent value="dulces-dessert">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Dulces/Dessert</h2>
+                  <p className="text-gray-400 mb-8">Coming soon - Check back for our traditional Peruvian desserts.</p>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Refrescos Naturales Menu Content */}
+            <TabsContent value="refrescos-naturales">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Refrescos Naturales</h2>
+                  <p className="text-gray-400 mb-8">Coming soon - Check back for our natural refreshing beverages.</p>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Cervezas y Cocteles Menu Content */}
+            <TabsContent value="cervezas-cocteles">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Cervezas y Cocteles</h2>
+                  <p className="text-gray-400 mb-8">Coming soon - Check back for our beer and cocktail offerings.</p>
+                </div>
+              </div>
+            </TabsContent>
+            
+            {/* Soft Drinks Menu Content */}
+            <TabsContent value="soft-drinks">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Gaseosas/Soft Drinks</h2>
+                  <p className="text-gray-400 mb-8">Coming soon - Check back for our soft drink options.</p>
+                </div>
+              </div>
+            </TabsContent>
+          </Tabs>
+        </div>
+        <Footer />
+      </ScrollArea>
+    </div>
+  );
+};
+
+export default Menu;
