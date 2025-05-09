@@ -1,7 +1,10 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { MenubarMenu, MenubarTrigger, Menubar, MenubarContent, MenubarItem } from "@/components/ui/menubar";
+import { ChevronDown } from "lucide-react";
 
 const Menu = () => {
   return (
@@ -18,15 +21,65 @@ const Menu = () => {
           </div>
           
           <Tabs defaultValue="starters" className="w-full max-w-4xl mx-auto">
-            <TabsList className="grid w-full grid-cols-7 bg-restaurant-muted border border-restaurant-gold/20 rounded-lg mb-8">
-              <TabsTrigger value="starters" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Starters</TabsTrigger>
-              <TabsTrigger value="platos-criollos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Platos Criollos</TabsTrigger>
-              <TabsTrigger value="pescados-mariscos" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Pescados y Mariscos</TabsTrigger>
-              <TabsTrigger value="grilled-chicken" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Grilled Chicken</TabsTrigger>
-              <TabsTrigger value="sopas-soups" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Sopas/Soups</TabsTrigger>
-              <TabsTrigger value="guarniciones-extras" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Guarniciones/Extras</TabsTrigger>
-              <TabsTrigger value="soft-drinks" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">Gaseosas/Soft Drinks</TabsTrigger>
-            </TabsList>
+            <div className="flex justify-center mb-8">
+              <Menubar className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg p-1 flex-wrap justify-center">
+                <MenubarMenu>
+                  <MenubarTrigger className="data-[state=open]:bg-restaurant-gold data-[state=open]:text-restaurant-dark hover:bg-restaurant-gold/10">
+                    <TabsTrigger value="starters" className="border-0 shadow-none bg-transparent px-4 py-2 data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">
+                      Starters
+                    </TabsTrigger>
+                  </MenubarTrigger>
+                </MenubarMenu>
+
+                <MenubarMenu>
+                  <MenubarTrigger className="data-[state=open]:bg-restaurant-gold data-[state=open]:text-restaurant-dark hover:bg-restaurant-gold/10">
+                    <TabsTrigger value="platos-criollos" className="border-0 shadow-none bg-transparent px-4 py-2 data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">
+                      Platos Criollos
+                    </TabsTrigger>
+                  </MenubarTrigger>
+                </MenubarMenu>
+
+                <MenubarMenu>
+                  <MenubarTrigger className="data-[state=open]:bg-restaurant-gold data-[state=open]:text-restaurant-dark hover:bg-restaurant-gold/10">
+                    <TabsTrigger value="pescados-mariscos" className="border-0 shadow-none bg-transparent px-4 py-2 data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">
+                      Pescados y Mariscos
+                    </TabsTrigger>
+                  </MenubarTrigger>
+                </MenubarMenu>
+
+                <MenubarMenu>
+                  <MenubarTrigger className="data-[state=open]:bg-restaurant-gold data-[state=open]:text-restaurant-dark hover:bg-restaurant-gold/10">
+                    <TabsTrigger value="grilled-chicken" className="border-0 shadow-none bg-transparent px-4 py-2 data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">
+                      Grilled Chicken
+                    </TabsTrigger>
+                  </MenubarTrigger>
+                </MenubarMenu>
+
+                <MenubarMenu>
+                  <MenubarTrigger className="data-[state=open]:bg-restaurant-gold data-[state=open]:text-restaurant-dark hover:bg-restaurant-gold/10">
+                    <TabsTrigger value="sopas-soups" className="border-0 shadow-none bg-transparent px-4 py-2 data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">
+                      Sopas/Soups
+                    </TabsTrigger>
+                  </MenubarTrigger>
+                </MenubarMenu>
+
+                <MenubarMenu>
+                  <MenubarTrigger className="data-[state=open]:bg-restaurant-gold data-[state=open]:text-restaurant-dark hover:bg-restaurant-gold/10">
+                    <TabsTrigger value="guarniciones-extras" className="border-0 shadow-none bg-transparent px-4 py-2 data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">
+                      Guarniciones/Extras
+                    </TabsTrigger>
+                  </MenubarTrigger>
+                </MenubarMenu>
+
+                <MenubarMenu>
+                  <MenubarTrigger className="data-[state=open]:bg-restaurant-gold data-[state=open]:text-restaurant-dark hover:bg-restaurant-gold/10">
+                    <TabsTrigger value="soft-drinks" className="border-0 shadow-none bg-transparent px-4 py-2 data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark">
+                      Gaseosas/Soft Drinks
+                    </TabsTrigger>
+                  </MenubarTrigger>
+                </MenubarMenu>
+              </Menubar>
+            </div>
 
             {/* Peruvian Starters Menu */}
             <TabsContent value="starters">
