@@ -778,6 +778,27 @@ const Menu = () => {
                           </p>
                         </div>
                       </div>
+                      {/* Parihuela */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/48d199ba-7eda-486e-bd11-baf4c6e9b888.png"
+                            alt="Parihuela"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Parihuela
+                            </h3>
+                            <span className="text-restaurant-gold">£22.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Spicy seafood soup with scallops, crab, mussels, and octopus. Seasoned with Peruvian spices, yellow and panca peppers, and an acidic touch of lemon, beer, chicha de jora, or wine.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-400 mt-8">Coming soon - Check back for our homemade Peruvian soups.</p>
