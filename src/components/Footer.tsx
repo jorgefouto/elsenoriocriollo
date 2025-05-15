@@ -1,18 +1,13 @@
-
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const Footer = () => {
-  return (
-    <footer className="bg-restaurant-muted border-t border-restaurant-gold/20">
+  return <footer className="bg-restaurant-muted border-t border-restaurant-gold/20">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
             <h3 className="text-xl font-serif text-restaurant-gold mb-4">El Señorio Criollo</h3>
-            <p className="text-gray-400 mb-6">
-              A modern dining experience with classic influences, offering innovative cuisine in an elegant atmosphere.
-            </p>
+            <p className="text-gray-400 mb-6">A peruvian dining experience with classic influences, offering innovative cuisine in an elegant atmosphere.</p>
             <div className="flex space-x-4">
               <a href="https://instagram.com" className="text-gray-400 hover:text-restaurant-gold transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
@@ -32,19 +27,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <span className="text-gray-400">123 Main Street, Atlanta, GA 30303</span>
+                <span className="text-gray-400">12 Peckham Park Road - SE15 6TW</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-restaurant-gold mr-2 shrink-0" />
-                <a href="tel:4045551234" className="text-gray-400 hover:text-restaurant-gold transition-colors">
-                  (404) 555-1234
-                </a>
+                <a href="tel:4045551234" className="text-gray-400 hover:text-restaurant-gold transition-colors">+44 2076356683</a>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-restaurant-gold mr-2 shrink-0" />
-                <a href="mailto:info@savoryrestaurant.com" className="text-gray-400 hover:text-restaurant-gold transition-colors">
-                  info@savoryrestaurant.com
-                </a>
+                <a href="mailto:info@savoryrestaurant.com" className="text-gray-400 hover:text-restaurant-gold transition-colors">elsenoriocriollo.co.uk</a>
               </li>
             </ul>
           </div>
@@ -126,8 +117,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
