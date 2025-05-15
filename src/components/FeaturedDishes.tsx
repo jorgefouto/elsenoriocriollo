@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const dishes = [
@@ -30,10 +29,10 @@ const FeaturedDishes = () => {
     <section className="bg-restaurant-dark section-padding">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-3">Featured Dishes</h2>
+          <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-3">Featured Peruvian Dishes</h2>
           <div className="w-16 h-1 bg-restaurant-gold mx-auto mb-6"></div>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Our chef's selection of exceptional dishes, crafted with premium ingredients and expert technique.
+            Discover the signature flavors of Peru. Our chef's featured selection showcases authentic Peruvian classics, made with premium ingredients and expert technique.
           </p>
         </div>
         
