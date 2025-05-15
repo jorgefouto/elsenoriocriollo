@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const PescadosMariscosMenu = () => (
@@ -153,7 +154,7 @@ const PescadosMariscosMenu = () => (
           <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
             <div className="relative h-52">
               <img 
-                src="/lovable-uploads/fa8eaef3-9f09-4ee0-a65b-cf5d8fdf6641.png" 
+                src="/lovable-uploads/dc6c5a50-d0fb-4e11-adae-ad04728586d3.png" 
                 alt="Trio Marino" 
                 className="w-full h-full object-cover"
               />
