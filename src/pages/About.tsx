@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -52,8 +51,8 @@ const About = () => {
               <div className="relative">
                 <div className="bg-restaurant-gold/10 absolute -inset-4 rounded-lg -z-10"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Restaurant early days" 
+                  src="/lovable-uploads/2edde999-d32b-4d93-b776-a1312091aa73.png" 
+                  alt="Peruvian chef cooking traditional food" 
                   className="rounded-lg shadow-xl"
                 />
               </div>
