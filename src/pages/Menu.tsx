@@ -1087,6 +1087,27 @@ const Menu = () => {
                           </p>
                         </div>
                       </div>
+                      {/* Pisco Sour - NEW DISH */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52 flex items-center justify-center bg-white">
+                          <img
+                            src="/lovable-uploads/d5b91a5e-255c-4136-a1f8-30b97e9c8c59.png"
+                            alt="Pisco Sour"
+                            className="h-full object-contain mx-auto"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Pisco Sour
+                            </h3>
+                            <span className="text-restaurant-gold">£10.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Traditional Peruvian cocktail made with pisco, syrup, lemon juice, and egg whites.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-400 mb-8">Coming soon - Check back for our beer and cocktail offerings.</p>
