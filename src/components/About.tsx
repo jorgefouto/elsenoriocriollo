@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 const About = () => {
   return <section className="bg-restaurant-muted section-padding">
@@ -22,15 +23,15 @@ const About = () => {
             <div className="space-y-4">
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img
-                  src="https://images.unsplash.com/photo-1561406636-3c1b84566b77?auto=format&fit=crop&w=900&q=80"
-                  alt="Classic Peruvian cevichería scene in Lima"
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+                  alt="Majestic view of Machu Picchu, Peru"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img
-                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
-                  alt="Bustling restaurant interior filled with Peruvian decor and guests"
+                  src="https://images.unsplash.com/photo-1469041797191-50ace28483c3?auto=format&fit=crop&w=900&q=80"
+                  alt="Peruvian women in traditional dress in the Andes"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -38,8 +39,8 @@ const About = () => {
             <div className="mt-8">
               <div className="overflow-hidden rounded-lg h-80 md:h-[28rem]">
                 <img
-                  src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=900&q=80"
-                  alt="Night view of popular Peruvian restaurant exterior"
+                  src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=900&q=80"
+                  alt="Traditional Peruvian festival with dancers in colorful costume"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
