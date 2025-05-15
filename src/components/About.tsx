@@ -10,13 +10,13 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-6">Our Story</h2>
             <div className="w-16 h-1 bg-restaurant-gold mb-6"></div>
             <p className="text-gray-300 mb-6">
-              Founded in 2010, Savory began as a small family-owned bistro with a passion for exceptional ingredients and memorable dining experiences.
+              At Savory, we celebrate the vibrant culinary heritage of Peru. From the zesty flavors of ceviche along the Pacific coast to the earthy notes of Andean stews, our dishes reflect the incredible diversity of Peruvian cuisine.
             </p>
             <p className="text-gray-300 mb-6">
-              Over the years, under the guidance of award-winning Chef Michael Reyes, we've evolved into a destination for food enthusiasts seeking innovative dishes with classic foundations.
+              Peru’s kitchens are melting pots — blending indigenous ingredients with Spanish, African, Chinese, and Japanese influences to create some of the world’s most exciting and colorful food traditions.  
             </p>
             <p className="text-gray-300 mb-8">
-              Our commitment to quality remains unchanged - we source locally when possible, collaborate with artisan producers, and create each dish with meticulous attention to detail.
+              Whether you’re savoring a Lomo Saltado in the heart of Lima or enjoying anticuchos in a bustling street market, eating in Peru is always about sharing — food, stories, and unforgettable moments. Join us and experience Peru’s flavors, right at your table.
             </p>
             <Button className="bg-restaurant-gold text-restaurant-dark hover:bg-restaurant-gold/90">
               <a href="/about">Learn More</a>
@@ -27,15 +27,15 @@ const About = () => {
             <div className="space-y-4">
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img 
-                  src="https://images.unsplash.com/photo-1484659619207-9165d119dafe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Restaurant interior" 
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+                  alt="Colorful restaurant streets in Cusco, Peru" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img 
-                  src="https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Chef preparing food" 
+                  src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=900&q=80" 
+                  alt="Dining room with traditional Peruvian décor" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -43,8 +43,8 @@ const About = () => {
             <div className="mt-8">
               <div className="overflow-hidden rounded-lg h-80 md:h-[28rem]">
                 <img 
-                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Dining area" 
+                  src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=900&q=80" 
+                  alt="Peruvian restaurant with local ambience" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
