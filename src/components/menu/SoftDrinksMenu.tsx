@@ -154,6 +154,27 @@ const SoftDrinksMenu = () => (
               </p>
             </div>
           </div>
+          {/* 7UP (Can) */}
+          <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+            <div className="relative h-52 flex items-center justify-center bg-white">
+              <img
+                src="/lovable-uploads/8ad9dbc5-314c-4ed5-aa66-4663b1ba628d.png"
+                alt="7UP (Can)"
+                className="h-full object-contain mx-auto"
+              />
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-baseline mb-2">
+                <h3 className="text-xl font-serif text-restaurant-light">
+                  7UP (Can)
+                </h3>
+                <span className="text-restaurant-gold">£2.50</span>
+              </div>
+              <p className="text-gray-400">
+                Lemon-lime flavoured 7UP in a 330ml can.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <p className="text-gray-400 mb-8">Coming soon - Check back for our soft drink options.</p>
