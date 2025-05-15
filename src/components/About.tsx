@@ -37,11 +37,11 @@ const About = () => {
               </div>
             </div>
             <div className="mt-8">
-              <div className="overflow-hidden rounded-lg h-80 md:h-[28rem]">
+              <div className="overflow-hidden rounded-lg h-96 md:h-[32rem]">
                 <img
                   src="/lovable-uploads/562c478f-c33c-41e6-a3cf-90fd444a7b3d.png"
                   alt="Peruvian women with llamas and alpacas"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top md:object-center hover:scale-100 transition-transform duration-500"
                 />
               </div>
             </div>
