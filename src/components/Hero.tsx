@@ -4,8 +4,8 @@ const Hero = () => {
   return <section className="relative hero-height w-full bg-image overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80"
-          alt="Peruvian ceviche, a representative Peruvian dish"
+          src="https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?auto=format&fit=crop&w=1350&q=80"
+          alt="Traditional Peruvian restaurant with vibrant colors and local decor"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-restaurant-dark via-restaurant-dark/80 to-transparent"></div>
