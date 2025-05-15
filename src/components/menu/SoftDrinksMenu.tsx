@@ -53,7 +53,7 @@ const SoftDrinksMenu = () => (
           <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
             <div className="relative h-52 flex items-center justify-center bg-white">
               <img
-                src="/lovable-uploads/0377053b-8dde-471f-9bdc-142f4a31f2d9.png"
+                src="/lovable-uploads/32836caa-7ed8-4459-a9e1-a4681e4e01db.png"
                 alt="Inka Kola"
                 className="h-full object-contain mx-auto"
               />
