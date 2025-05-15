@@ -138,8 +138,8 @@ const About = () => {
                 <div className="bg-restaurant-gold/10 absolute -inset-4 rounded-lg -z-10"></div>
                 <div className="w-4/5 max-w-xs md:max-w-md lg:max-w-md xl:max-w-lg">
                   <img 
-                    src="/lovable-uploads/a686eac9-e60f-43a2-9217-23ac3196cb02.png"
-                    alt="Peruvian landscape with local dishes"
+                    src="/lovable-uploads/a6a33cd6-610a-4350-9cda-08d4c93a0bb6.png"
+                    alt="Andean women and child in traditional Peruvian dress"
                     className="rounded-lg shadow-xl w-full h-[32rem] md:h-[36rem] object-cover object-center"
                   />
                 </div>
