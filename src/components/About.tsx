@@ -36,7 +36,7 @@ const About = () => {
               </div>
             </div>
             <div className="mt-8">
-              <div className="overflow-hidden rounded-lg h-96 md:h-[32rem] w-[110%] md:w-[115%]">
+              <div className="overflow-hidden rounded-lg h-96 md:h-[32rem] w-[130%] md:w-[150%]">
                 <img
                   src="/lovable-uploads/562c478f-c33c-41e6-a3cf-90fd444a7b3d.png"
                   alt="Peruvian women with llamas and alpacas"
