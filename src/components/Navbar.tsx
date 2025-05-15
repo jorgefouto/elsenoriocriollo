@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
@@ -62,13 +61,6 @@ const Navbar = () => {
             <Link to="/contact" className="text-sm uppercase tracking-wider hover:text-restaurant-gold transition-colors">
               Contact
             </Link>
-            <a 
-              href="#reservation" 
-              onClick={handleReserveClick}
-              className="px-4 py-2 border border-restaurant-gold text-restaurant-gold hover:bg-restaurant-gold hover:text-restaurant-dark transition-colors text-sm uppercase tracking-wider"
-            >
-              Reserve
-            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -114,13 +106,6 @@ const Navbar = () => {
               >
                 Contact
               </Link>
-              <a 
-                href="#reservation" 
-                onClick={handleReserveClick}
-                className="inline-block px-4 py-2 border border-restaurant-gold text-restaurant-gold hover:bg-restaurant-gold hover:text-restaurant-dark transition-colors text-sm uppercase tracking-wider"
-              >
-                Reserve
-              </a>
             </nav>
           </div>
         </div>
@@ -130,4 +115,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
