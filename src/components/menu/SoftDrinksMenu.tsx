@@ -239,7 +239,6 @@ const SoftDrinksMenu = () => (
           </div>
         </div>
       </div>
-      <p className="text-gray-400 mb-8">Coming soon - Check back for our soft drink options.</p>
     </div>
   </div>
 );
