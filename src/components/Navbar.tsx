@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -28,7 +27,7 @@ const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-black/90 backdrop-blur-md shadow-md border-b border-black/40'
+          ? 'bg-[#111]/95 backdrop-blur-lg shadow-lg border-b border-[#222]'
           : 'bg-transparent'
       }`}
       style={{
@@ -122,4 +121,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
