@@ -799,6 +799,27 @@ const Menu = () => {
                           </p>
                         </div>
                       </div>
+                      {/* Sustancia de Carne - NEW */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/884bb7a5-79d8-44a8-925e-a2ab40a384d5.png"
+                            alt="Sustancia de Carne"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Sustancia de Carne
+                            </h3>
+                            <span className="text-restaurant-gold">£10.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Hearty beef soup made with minced beef, fresh oregano, soy sauce, potatoes, angel hair noodles, egg, and Chinese onion.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-400 mt-8">Coming soon - Check back for our homemade Peruvian soups.</p>
