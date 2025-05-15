@@ -38,13 +38,13 @@ const About = () => {
                 <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-6">Our Beginning</h2>
                 <div className="w-16 h-1 bg-restaurant-gold mb-6"></div>
                 <p className="text-gray-300 mb-6">
-                  Savory was founded in 2010 by Chef Michael Reyes, whose passion for culinary excellence and innovative flavors drove him to create a restaurant that would redefine dining in Atlanta.
+                  The story of Peruvian cuisine is a journey across vibrant landscapes and ancient cultures. From the Pacific coast to the soaring heights of the Andes, Peru’s table is set with flavors and traditions as diverse as its geography.
                 </p>
                 <p className="text-gray-300 mb-6">
-                  Beginning as a small bistro with just 10 tables, Savory quickly gained recognition for its exceptional cuisine, attentive service, and intimate atmosphere. As word spread, loyal patrons and food critics alike celebrated Chef Reyes' creative approach to classic dishes.
+                  Centuries of native ingredients—quinoa, potatoes, aji peppers, and fresh seafood—blend with influences from Spain, Africa, China, Italy, and Japan, creating one of the world’s most unique and celebrated kitchens.
                 </p>
                 <p className="text-gray-300">
-                  In 2015, Savory expanded to its current location, a beautifully renovated historic building in the heart of downtown Atlanta. The expanded space allowed Chef Reyes to further develop his culinary vision while maintaining the intimate atmosphere that had become Savory's signature.
+                  At El Senorio Criollo, we honor this heritage by sharing classic dishes like ceviche, lomo saltado, and anticuchos, crafted with love and a respect for the Peruvian spirit of hospitality. To dine with us is to embark on a flavorful adventure through Peru’s rich culinary legacy.
                 </p>
               </div>
               
