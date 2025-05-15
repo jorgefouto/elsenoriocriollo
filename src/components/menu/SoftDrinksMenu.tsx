@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const SoftDrinksMenu = () => (
@@ -129,6 +130,27 @@ const SoftDrinksMenu = () => (
               </div>
               <p className="text-gray-400">
                 2-litre bottle of tropical fruit-flavoured Peruvian soda.
+              </p>
+            </div>
+          </div>
+          {/* Tropical 500ml */}
+          <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+            <div className="relative h-52 flex items-center justify-center bg-white">
+              <img
+                src="/lovable-uploads/165e1f95-38bd-4a8b-9a64-d6320e9bce00.png"
+                alt="Tropical 500ml"
+                className="h-full object-contain mx-auto"
+              />
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-baseline mb-2">
+                <h3 className="text-xl font-serif text-restaurant-light">
+                  Tropical 500ml
+                </h3>
+                <span className="text-restaurant-gold">£3.50</span>
+              </div>
+              <p className="text-gray-400">
+                500ml bottle of tropical fruit-flavoured Peruvian soda.
               </p>
             </div>
           </div>
