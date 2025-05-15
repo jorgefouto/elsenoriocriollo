@@ -679,6 +679,28 @@ const Menu = () => {
                         </div>
                       </div>
 
+                      {/* 1 Pollo a la Brasa + Patatas + Ensalada y Cremas - NEW */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/b0604325-d059-4202-8592-c89cb6df87b1.png"
+                            alt="1 Pollo a la Brasa + Patatas + Ensalada y Cremas"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              1 Pollo a la Brasa + Patatas + Ensalada y Cremas
+                            </h3>
+                            <span className="text-restaurant-gold">£30.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Whole grilled chicken served with fried potatoes, salad, and Peruvian sauces.
+                          </p>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </div>
