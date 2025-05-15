@@ -995,6 +995,27 @@ const Menu = () => {
                           </p>
                         </div>
                       </div>
+                      {/* Torta de 3 Leches - NEW DISH */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/908d4478-9df1-4876-8b2d-4729464848a8.png"
+                            alt="Torta de 3 Leches"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Torta de 3 Leches
+                            </h3>
+                            <span className="text-restaurant-gold">£5.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Moist sponge cake soaked in three kinds of milk: evaporated, condensed, and cream, topped with whipped cream.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-400 mb-8">Coming soon - Check back for our traditional Peruvian desserts.</p>
