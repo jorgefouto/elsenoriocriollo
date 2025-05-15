@@ -636,7 +636,7 @@ const Menu = () => {
                       <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
                         <div className="relative h-52">
                           <img
-                            src="/lovable-uploads/3b27d420-c2a4-43d5-bec4-35b03c87fe19.png"
+                            src="/lovable-uploads/ad6ef7b7-d41e-43bc-ae76-5b5e4ff67f04.png"
                             alt="1/4 de Pollo a la Brasa"
                             className="w-full h-full object-cover"
                           />
