@@ -111,6 +111,27 @@ const SoftDrinksMenu = () => (
               </p>
             </div>
           </div>
+          {/* America / Andin’s Cristal 500ml */}
+          <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+            <div className="relative h-52 flex items-center justify-center bg-white">
+              <img
+                src="/lovable-uploads/517cecbb-dab3-442f-bf3d-cc25ad77463e.png"
+                alt="America / Andin’s Cristal 500ml"
+                className="h-full object-contain mx-auto"
+              />
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-baseline mb-2">
+                <h3 className="text-xl font-serif text-restaurant-light">
+                  America / Andin’s Cristal 500ml
+                </h3>
+                <span className="text-restaurant-gold">£3.50</span>
+              </div>
+              <p className="text-gray-400">
+                500ml bottle of America Kola, a yellow Peruvian soda with a sweet herbal flavour.
+              </p>
+            </div>
+          </div>
           {/* Manzana 500ml */}
           <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
             <div className="relative h-52 flex items-center justify-center bg-white">
