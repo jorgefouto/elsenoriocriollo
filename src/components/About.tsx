@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
               <a href="/about">Learn More</a>
             </Button>
           </div>
-          <div className="order-1 lg:order-2 grid grid-cols-2 gap-4">
+          <div className="order-1 lg:order-2 grid grid-cols-2 gap-4 lg:ml-[-3.5rem] xl:ml-[-5rem] 2xl:ml-[-7rem]">
             <div className="space-y-4">
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img
@@ -51,3 +52,4 @@ const About = () => {
   );
 };
 export default About;
+
