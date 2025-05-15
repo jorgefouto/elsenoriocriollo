@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const RefrescosNaturalesMenu = () => (
@@ -30,9 +31,9 @@ const RefrescosNaturalesMenu = () => (
           </div>
         </div>
       </div>
-      <p className="text-gray-400 mb-8">Coming soon - Check back for our natural refreshing beverages.</p>
     </div>
   </div>
 );
 
 export default RefrescosNaturalesMenu;
+
