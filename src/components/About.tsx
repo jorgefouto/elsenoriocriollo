@@ -1,10 +1,11 @@
+
 import { Button } from "@/components/ui/button";
 const About = () => {
   return (
     <section className="bg-restaurant-muted section-padding">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="order-2 lg:order-1 lg:mr-12 xl:mr-20 2xl:mr-32">
+          <div className="order-2 lg:order-1 max-w-xl mx-auto lg:ml-0 lg:mr-12 xl:mr-20 2xl:mr-32 w-full">
             <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-6">Our Story</h2>
             <div className="w-16 h-1 bg-restaurant-gold mb-6"></div>
             <p className="text-gray-300 mb-6">At El Senorio Criollo, we celebrate the vibrant culinary heritage of Peru. From the zesty flavors of ceviche along the Pacific coast to the earthy notes of Andean stews, our dishes reflect the incredible diversity of Peruvian cuisine.</p>
