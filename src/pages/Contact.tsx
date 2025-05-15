@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -216,12 +215,12 @@ const Contact = () => {
                 <h2 className="text-3xl font-serif text-restaurant-light mb-6">Find Us</h2>
                 <div className="w-16 h-1 bg-restaurant-gold mb-6"></div>
                 <p className="text-gray-400 mb-8">
-                  Located in the heart of downtown Atlanta, Savory is easily accessible by public transportation and offers valet parking for guests.
+                  Located in the heart of Peckham, London, El Señorio Criollo is easily accessible by public transportation and offers convenient parking for guests.
                 </p>
                 
                 <div className="w-full h-80 md:h-96 bg-restaurant-dark rounded-lg overflow-hidden border border-restaurant-gold/20">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13279.562370660475!2d-84.39797836776123!3d33.75910158912758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f503856139f36d%3A0xdfe8df5080bcc3a!2sDowntown%2C%20Atlanta%2C%20GA!5e0!3m2!1sen!2sus!4v1644332630145!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.703204177482!2d-0.06325998414949798!3d51.472168979631246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876036c2d4df0cf%3A0xd6d4bac0f100849c!2s12%20Peckham%20Park%20Rd%2C%20London%20SE15%206TW%2C%20UK!5e0!3m2!1sen!2suk!4v1715798421531!5m2!1sen!2suk"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
