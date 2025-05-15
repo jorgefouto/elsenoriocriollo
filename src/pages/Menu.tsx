@@ -734,7 +734,32 @@ const Menu = () => {
               <div className="space-y-12">
                 <div>
                   <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Sopas/Soups</h2>
-                  <p className="text-gray-400 mb-8">Coming soon - Check back for our homemade Peruvian soups.</p>
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Caldo de Gallina */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/15324a5c-6544-4e64-aaad-fe1fd06e1f38.png"
+                            alt="Caldo de Gallina"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Caldo de Gallina
+                            </h3>
+                            <span className="text-restaurant-gold">£10.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Hen broth with chicken leg, carrot, yellow potato, celery, white onion, and egg.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-gray-400 mt-8">Coming soon - Check back for our homemade Peruvian soups.</p>
                 </div>
               </div>
             </TabsContent>
