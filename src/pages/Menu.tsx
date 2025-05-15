@@ -757,6 +757,27 @@ const Menu = () => {
                           </p>
                         </div>
                       </div>
+                      {/* Chupe de Camarones */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/e98db893-53a2-4c4a-8d2b-d4491443b0de.png"
+                            alt="Chupe de Camarones"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Chupe de Camarones
+                            </h3>
+                            <span className="text-restaurant-gold">£20.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Creamy shrimp soup with river prawns, yellow potatoes, fresh cheese, milk, broad beans, peas, corn, rice, and egg. Finished with a red pepper and huacatay (Peruvian herb) dressing.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-400 mt-8">Coming soon - Check back for our homemade Peruvian soups.</p>
