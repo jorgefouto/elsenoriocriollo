@@ -195,6 +195,27 @@ const SoftDrinksMenu = () => (
               </p>
             </div>
           </div>
+          {/* Coca Cola 1.75 Litros */}
+          <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+            <div className="relative h-52 flex items-center justify-center bg-white">
+              <img
+                src="/lovable-uploads/cadd023e-2fe8-4c53-b27e-fea3cafd9bc3.png"
+                alt="Coca Cola 1.75 Litros"
+                className="h-full object-contain mx-auto"
+              />
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-baseline mb-2">
+                <h3 className="text-xl font-serif text-restaurant-light">
+                  Coca Cola 1.75 Litros
+                </h3>
+                <span className="text-restaurant-gold">£7.00</span>
+              </div>
+              <p className="text-gray-400">
+                1.75-litre bottle of classic Coca-Cola.
+              </p>
+            </div>
+          </div>
           {/* 7UP (Can) */}
           <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
             <div className="relative h-52 flex items-center justify-center bg-white">
