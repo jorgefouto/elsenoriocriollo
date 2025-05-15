@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const SopasSoupsMenu = () => (
@@ -92,7 +93,6 @@ const SopasSoupsMenu = () => (
           </div>
         </div>
       </div>
-      <p className="text-gray-400 mt-8">Coming soon - Check back for our homemade Peruvian soups.</p>
     </div>
   </div>
 );
