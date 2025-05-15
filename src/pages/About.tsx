@@ -134,13 +134,15 @@ const About = () => {
                 </p>
               </div>
               
-              <div className="order-1 lg:order-2 relative">
+              <div className="order-1 lg:order-2 relative flex justify-center">
                 <div className="bg-restaurant-gold/10 absolute -inset-4 rounded-lg -z-10"></div>
-                <img 
-                  src="/lovable-uploads/a686eac9-e60f-43a2-9217-23ac3196cb02.png"
-                  alt="Peruvian landscape with local dishes"
-                  className="rounded-lg shadow-xl"
-                />
+                <div className="w-4/5 max-w-xs md:max-w-md lg:max-w-md xl:max-w-lg">
+                  <img 
+                    src="/lovable-uploads/a686eac9-e60f-43a2-9217-23ac3196cb02.png"
+                    alt="Peruvian landscape with local dishes"
+                    className="rounded-lg shadow-xl w-full h-[32rem] md:h-[36rem] object-cover object-center"
+                  />
+                </div>
               </div>
             </div>
           </div>
