@@ -1,3 +1,4 @@
+
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
 const Footer = () => {
@@ -80,21 +81,6 @@ const Footer = () => {
               <li>
                 <Link to="/about" className="text-gray-400 hover:text-restaurant-gold transition-colors">
                   About Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/events" className="text-gray-400 hover:text-restaurant-gold transition-colors">
-                  Private Events
-                </Link>
-              </li>
-              <li>
-                <Link to="/gift-cards" className="text-gray-400 hover:text-restaurant-gold transition-colors">
-                  Gift Cards
-                </Link>
-              </li>
-              <li>
-                <Link to="/careers" className="text-gray-400 hover:text-restaurant-gold transition-colors">
-                  Careers
                 </Link>
               </li>
             </ul>
