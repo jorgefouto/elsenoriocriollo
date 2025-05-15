@@ -5,19 +5,19 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    text: "The atmosphere and food were exceptional. The truffle risotto is a masterpiece - creamy with just the right amount of earthiness. Service was impeccable.",
+    text: "An authentic taste of Peru! The ceviche transported me straight to Lima, zesty and fresh. The causa and lomo saltado made our evening unforgettable.",
     author: "Alexandra Thompson",
     title: "Food Critic"
   },
   {
     id: 2,
-    text: "An unforgettable dining experience. From the elegant ambiance to the perfectly executed dishes, every detail exceeded our expectations. We'll definitely be back.",
+    text: "Visiting El Senorio Criollo brought back memories of my abuela’s cooking. The aji de gallina had just the right spice, and the chicha morada was simply perfect.",
     author: "Michael Rodriguez",
     title: "Local Foodie"
   },
   {
     id: 3,
-    text: "Savory perfectly balances innovation and tradition. The aged ribeye was perfectly cooked, and the wine pairing recommendation was spot on. A new favorite.",
+    text: "From the vibrant decor to the delicious anticuchos, every detail celebrates Peruvian culture. Don’t miss the fresh pisco sours with your meal!",
     author: "David Chen",
     title: "Wine Enthusiast"
   }
@@ -101,3 +101,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
