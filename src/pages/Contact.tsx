@@ -90,8 +90,8 @@ const Contact = () => {
                 </div>
                 <h3 className="text-xl font-serif text-restaurant-gold mb-4">Address</h3>
                 <p className="text-gray-300">
-                  123 Main Street<br />
-                  Atlanta, GA 30303
+                  12 Peckham Park Road<br />
+                  SE15 6TW
                 </p>
               </div>
               
