@@ -4,24 +4,24 @@ import { Card, CardContent } from "@/components/ui/card";
 const dishes = [
   {
     id: 1,
-    name: "Herb-Crusted Sea Bass",
-    description: "Fresh sea bass with a blend of herbs, served with lemon butter and seasonal vegetables",
-    price: 32,
-    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    name: "Lomo Saltado",
+    description: "Chunks of beef steak stir-fried with fresh tomato and red onion, served with fries and white rice.",
+    price: 15,
+    image: "/lovable-uploads/959be316-6746-4a47-8aa1-6d27afa92bf1.png",
   },
   {
     id: 2,
-    name: "Truffle Risotto",
-    description: "Creamy Arborio rice with wild mushrooms, shaved black truffle, and aged Parmesan",
-    price: 28,
-    image: "https://images.unsplash.com/photo-1481931098730-318b6f776db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    name: "Ají de Gallina",
+    description: "Shredded chicken in a creamy yellow chili sauce, served with a boiled egg, olives, and white rice. A traditional Peruvian specialty.",
+    price: 16,
+    image: "/lovable-uploads/1b80307a-4808-454e-9fc0-3f7862bfa0ea.png",
   },
   {
     id: 3,
-    name: "Aged Prime Ribeye",
-    description: "28-day dry-aged ribeye with roasted garlic butter, served with truffle fries",
-    price: 45,
-    image: "https://images.unsplash.com/photo-1546241072-48010ad2862c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    name: "Ceviche Mixto",
+    description: "Fresh raw fish, baby prawns, mussels, and squid cured in citrus juice (lime), spiced with ají, and mixed with chopped onions, salt, and coriander. Served with sweet potato and Peruvian corn.",
+    price: 20,
+    image: "/lovable-uploads/99fe47c0-eb19-4c23-abf6-70ee505d7112.png",
   },
 ];
 
@@ -50,7 +50,7 @@ const FeaturedDishes = () => {
               <CardContent className="p-6">
                 <div className="flex justify-between items-center mb-3">
                   <h3 className="text-xl font-serif text-restaurant-light">{dish.name}</h3>
-                  <span className="text-restaurant-gold font-semibold">${dish.price}</span>
+                  <span className="text-restaurant-gold font-semibold">£{dish.price}.00</span>
                 </div>
                 <p className="text-gray-400 text-sm">{dish.description}</p>
               </CardContent>
