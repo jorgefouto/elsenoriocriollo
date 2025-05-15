@@ -1,7 +1,8 @@
 
 import { Button } from "@/components/ui/button";
 const About = () => {
-  return <section className="bg-restaurant-muted section-padding">
+  return (
+    <section className="bg-restaurant-muted section-padding">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
@@ -18,20 +19,19 @@ const About = () => {
               <a href="/about">Learn More</a>
             </Button>
           </div>
-          
           <div className="order-1 lg:order-2 grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img
-                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
-                  alt="Majestic view of Machu Picchu, Peru"
+                  src="/lovable-uploads/a686eac9-e60f-43a2-9217-23ac3196cb02.png"
+                  alt="Machu Picchu with llamas"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img
-                  src="https://images.unsplash.com/photo-1469041797191-50ace28483c3?auto=format&fit=crop&w=900&q=80"
-                  alt="Peruvian women in traditional dress in the Andes"
+                  src="/lovable-uploads/1f951d3b-2518-4f17-98e9-dfe25334a172.png"
+                  alt="Peruvian women and children in traditional dress"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -39,8 +39,8 @@ const About = () => {
             <div className="mt-8">
               <div className="overflow-hidden rounded-lg h-80 md:h-[28rem]">
                 <img
-                  src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=900&q=80"
-                  alt="Traditional Peruvian festival with dancers in colorful costume"
+                  src="/lovable-uploads/44d9a517-152a-4012-a2ca-20e4a768c6dc.png"
+                  alt="Peruvian festival with dancers in colorful costumes"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -48,6 +48,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default About;
