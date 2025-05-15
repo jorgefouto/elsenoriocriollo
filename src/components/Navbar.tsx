@@ -1,11 +1,12 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +23,21 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  // Helper for smooth scroll to reservation section
+  const handleReserveClick: React.MouseEventHandler<HTMLAnchorElement> = (e) => {
+    if (location.pathname === "/") {
+      e.preventDefault();
+      const el = document.getElementById("reservation");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+        setIsMenuOpen(false);
+        // Also update the hash without reloading or jumping
+        window.history.replaceState(null, "", "#reservation");
+      }
+    }
+    // else, allow default nav (if on another page)
   };
 
   return (
@@ -48,6 +64,7 @@ const Navbar = () => {
             </Link>
             <a 
               href="#reservation" 
+              onClick={handleReserveClick}
               className="px-4 py-2 border border-restaurant-gold text-restaurant-gold hover:bg-restaurant-gold hover:text-restaurant-dark transition-colors text-sm uppercase tracking-wider"
             >
               Reserve
@@ -99,8 +116,8 @@ const Navbar = () => {
               </Link>
               <a 
                 href="#reservation" 
+                onClick={handleReserveClick}
                 className="inline-block px-4 py-2 border border-restaurant-gold text-restaurant-gold hover:bg-restaurant-gold hover:text-restaurant-dark transition-colors text-sm uppercase tracking-wider"
-                onClick={() => setIsMenuOpen(false)}
               >
                 Reserve
               </a>
@@ -113,3 +130,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
