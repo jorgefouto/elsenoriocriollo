@@ -80,6 +80,7 @@ const Contact = () => {
         <section className="py-16 bg-restaurant-dark">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Address */}
               <div className="bg-restaurant-muted p-8 rounded-lg border border-restaurant-gold/20 text-center">
                 <div className="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-restaurant-gold/10 text-restaurant-gold">
                   <MapPin size={28} />
@@ -91,6 +92,7 @@ const Contact = () => {
                 </p>
               </div>
               
+              {/* Phone */}
               <div className="bg-restaurant-muted p-8 rounded-lg border border-restaurant-gold/20 text-center">
                 <div className="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-restaurant-gold/10 text-restaurant-gold">
                   <Phone size={28} />
@@ -106,21 +108,29 @@ const Contact = () => {
                 </p>
               </div>
               
+              {/* Website (replaces Email) */}
               <div className="bg-restaurant-muted p-8 rounded-lg border border-restaurant-gold/20 text-center">
                 <div className="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-restaurant-gold/10 text-restaurant-gold">
+                  {/* Optionally, use the Mail icon or a Globe icon if available */}
                   <Mail size={28} />
                 </div>
-                <h3 className="text-xl font-serif text-restaurant-gold mb-4">Email</h3>
+                <h3 className="text-xl font-serif text-restaurant-gold mb-4">Website</h3>
                 <p className="text-gray-300 mb-2">
-                  <a href="mailto:info@savoryrestaurant.com" className="hover:text-restaurant-gold transition-colors">
-                    info@savoryrestaurant.com
+                  <a 
+                    href="https://elsenoriocriollo.co.uk"
+                    className="hover:text-restaurant-gold transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    elsenoriocriollo.co.uk
                   </a>
                 </p>
                 <p className="text-gray-400 text-sm">
-                  We'll respond within 24 hours
+                  Visit our website for more information
                 </p>
               </div>
               
+              {/* Hours box remains unchanged */}
               <div className="bg-restaurant-muted p-8 rounded-lg border border-restaurant-gold/20 text-center">
                 <div className="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-restaurant-gold/10 text-restaurant-gold">
                   <Clock size={28} />
