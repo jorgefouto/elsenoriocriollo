@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const DulcesDessertMenu = () => (
@@ -92,9 +93,9 @@ const DulcesDessertMenu = () => (
           </div>
         </div>
       </div>
-      <p className="text-gray-400 mb-8">Coming soon - Check back for our traditional Peruvian desserts.</p>
     </div>
   </div>
 );
 
 export default DulcesDessertMenu;
+
