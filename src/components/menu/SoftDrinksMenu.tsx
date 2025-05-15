@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const SoftDrinksMenu = () => (
@@ -158,7 +157,7 @@ const SoftDrinksMenu = () => (
           <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
             <div className="relative h-52 flex items-center justify-center bg-white">
               <img
-                src="/lovable-uploads/8ad9dbc5-314c-4ed5-aa66-4663b1ba628d.png"
+                src="/lovable-uploads/ef0befe0-486f-4925-92bd-8cec82319d7f.png"
                 alt="7UP (Can)"
                 className="h-full object-contain mx-auto"
               />
