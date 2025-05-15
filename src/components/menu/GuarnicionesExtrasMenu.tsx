@@ -92,7 +92,6 @@ const GuarnicionesExtrasMenu = () => (
           </div>
         </div>
       </div>
-      <p className="text-gray-400 mb-8">Coming soon - Check back for our sides and extras.</p>
     </div>
   </div>
 );
