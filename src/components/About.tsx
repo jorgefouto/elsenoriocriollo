@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 const About = () => {
   return <section className="bg-restaurant-muted section-padding">
@@ -22,26 +21,26 @@ const About = () => {
           <div className="order-1 lg:order-2 grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
-                <img 
-                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" 
-                  alt="Lively Peruvian restaurant with patrons dining"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
+                <img
+                  src="https://images.unsplash.com/photo-1561406636-3c1b84566b77?auto=format&fit=crop&w=900&q=80"
+                  alt="Classic Peruvian cevichería scene in Lima"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
-                <img 
-                  src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80"
-                  alt="Cozy restaurant interior in Lima with traditional Peruvian decor" 
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
+                <img
+                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+                  alt="Bustling restaurant interior filled with Peruvian decor and guests"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
             <div className="mt-8">
               <div className="overflow-hidden rounded-lg h-80 md:h-[28rem]">
-                <img 
-                  src="https://images.unsplash.com/photo-1526679490061-4bfb7fa7b76e?auto=format&fit=crop&w=900&q=80"
-                  alt="Peruvian chefs preparing traditional dishes in a restaurant kitchen" 
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
+                <img
+                  src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=900&q=80"
+                  alt="Night view of popular Peruvian restaurant exterior"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
             </div>
