@@ -29,9 +29,10 @@ const Menu = () => {
               Authentic Peruvian cuisine with traditional flavors, crafted with seasonal ingredients and expert technique.
             </p>
           </div>
-          
+
           <Tabs defaultValue="starters" className="w-full max-w-4xl mx-auto">
-            <div className="flex justify-center mb-8">
+            <div className="flex flex-col gap-2 justify-center mb-8">
+              {/* First row of categories */}
               <TabsList className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg p-1 flex flex-wrap justify-center gap-1">
                 <TabsTrigger value="starters" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Starters
@@ -51,6 +52,9 @@ const Menu = () => {
                 <TabsTrigger value="guarniciones-extras" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Guarniciones/Extras
                 </TabsTrigger>
+              </TabsList>
+              {/* Second row of categories with same styling */}
+              <TabsList className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg p-1 flex flex-wrap justify-center gap-1">
                 <TabsTrigger value="dulces-dessert" className="data-[state=active]:bg-restaurant-gold data-[state=active]:text-restaurant-dark px-4 py-2">
                   Dulces/Dessert
                 </TabsTrigger>
