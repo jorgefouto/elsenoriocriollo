@@ -120,25 +120,25 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-3">Our Chef</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-3">Discover Peru</h2>
                 <div className="w-16 h-1 bg-restaurant-gold mb-6"></div>
-                <h3 className="text-xl font-serif text-restaurant-gold mb-4">Michael Reyes, Executive Chef & Founder</h3>
+                <h3 className="text-xl font-serif text-restaurant-gold mb-4">A Culinary Journey like No Other</h3>
                 <p className="text-gray-300 mb-6">
-                  Chef Michael Reyes brings over 20 years of culinary experience to Savory. After training at the Culinary Institute of America and working in Michelin-starred restaurants across Europe and Asia, he returned to his hometown of Atlanta to create a restaurant that would honor classic techniques while embracing innovation.
+                  Peru is a treasure trove of flavors, where every meal is a celebration of its diverse landscapes and rich history. From the Pacific coast’s fresh seafood to the hearty comfort of Andean mountain stews and the vibrant spices of the Amazon, Peruvian cuisine is truly a reflection of its people and places.
                 </p>
                 <p className="text-gray-300 mb-6">
-                  His approach combines respect for traditional methods with a willingness to experiment with flavor combinations and presentation. He is particularly known for his creative use of local, seasonal ingredients and his ability to elevate familiar dishes with unexpected elements.
+                  Peruvian food is renowned for its fusion of cultures—melding ancient Incan traditions with ingredients and techniques brought by Spanish, African, Chinese, and Japanese communities. Staples like ceviche, anticuchos, and aji de gallina delight with each bite, carrying stories of both ancestry and innovation.
                 </p>
                 <p className="text-gray-300">
-                  Chef Reyes has been recognized with numerous awards, including Atlanta Chef of the Year (2018) and a James Beard Foundation nomination. He regularly participates in culinary education programs and food festivals throughout the Southeast.
+                  At El Senorio Criollo, we proudly bring the spirit of Peru to your table, inviting you to experience a world of color, taste, and tradition that has earned Peruvian cuisine recognition among the world’s finest.
                 </p>
               </div>
               
               <div className="order-1 lg:order-2 relative">
                 <div className="bg-restaurant-gold/10 absolute -inset-4 rounded-lg -z-10"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Chef Michael Reyes" 
+                  src="/lovable-uploads/a686eac9-e60f-43a2-9217-23ac3196cb02.png"
+                  alt="Peruvian landscape with local dishes"
                   className="rounded-lg shadow-xl"
                 />
               </div>
