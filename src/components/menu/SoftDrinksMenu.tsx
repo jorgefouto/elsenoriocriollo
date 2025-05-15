@@ -91,6 +91,27 @@ const SoftDrinksMenu = () => (
               </p>
             </div>
           </div>
+          {/* Manzana 500ml */}
+          <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+            <div className="relative h-52 flex items-center justify-center bg-white">
+              <img
+                src="/lovable-uploads/7a9b0f80-5549-4c97-8d20-3d3a0f208039.png"
+                alt="Manzana 500ml"
+                className="h-full object-contain mx-auto"
+              />
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-baseline mb-2">
+                <h3 className="text-xl font-serif text-restaurant-light">
+                  Manzana 500ml
+                </h3>
+                <span className="text-restaurant-gold">£3.50</span>
+              </div>
+              <p className="text-gray-400">
+                500ml bottle of apple-flavoured Peruvian soda.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <p className="text-gray-400 mb-8">Coming soon - Check back for our soft drink options.</p>
@@ -99,4 +120,3 @@ const SoftDrinksMenu = () => (
 );
 
 export default SoftDrinksMenu;
-
