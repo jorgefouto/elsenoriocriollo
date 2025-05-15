@@ -876,6 +876,27 @@ const Menu = () => {
                           </p>
                         </div>
                       </div>
+                      {/* Ensalada - NEW DISH */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/46001063-61a3-4f42-bd46-c31797cb3b59.png"
+                            alt="Ensalada"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Ensalada
+                            </h3>
+                            <span className="text-restaurant-gold">£5.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Fresh salad with lettuce and tomatoes.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-400 mb-8">Coming soon - Check back for our sides and extras.</p>
