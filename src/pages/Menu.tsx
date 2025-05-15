@@ -953,6 +953,27 @@ const Menu = () => {
                           </p>
                         </div>
                       </div>
+                      {/* Gelatina - NEW DISH */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/0f46426c-6213-499a-acbd-327e9af71574.png"
+                            alt="Gelatina"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Gelatina
+                            </h3>
+                            <span className="text-restaurant-gold">£3.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Classic fruit-flavored jelly served chilled.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-400 mb-8">Coming soon - Check back for our traditional Peruvian desserts.</p>
