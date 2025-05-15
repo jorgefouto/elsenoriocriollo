@@ -23,15 +23,15 @@ const About = () => {
             <div className="space-y-4">
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img
-                  src="/lovable-uploads/a686eac9-e60f-43a2-9217-23ac3196cb02.png"
-                  alt="Machu Picchu with llamas"
+                  src="/lovable-uploads/051dab95-2340-4da2-b5e5-9ad0f685a991.png"
+                  alt="Peruvian festival with dancers and traditional market"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="overflow-hidden rounded-lg h-48 md:h-64">
                 <img
-                  src="/lovable-uploads/1f951d3b-2518-4f17-98e9-dfe25334a172.png"
-                  alt="Peruvian women and children in traditional dress"
+                  src="/lovable-uploads/81337808-ac15-4a30-8893-abca6244ff8e.png"
+                  alt="Machu Picchu with llamas"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -39,8 +39,8 @@ const About = () => {
             <div className="mt-8">
               <div className="overflow-hidden rounded-lg h-80 md:h-[28rem]">
                 <img
-                  src="/lovable-uploads/44d9a517-152a-4012-a2ca-20e4a768c6dc.png"
-                  alt="Peruvian festival with dancers in colorful costumes"
+                  src="/lovable-uploads/562c478f-c33c-41e6-a3cf-90fd444a7b3d.png"
+                  alt="Peruvian women with llamas and alpacas"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -52,3 +52,4 @@ const About = () => {
   );
 };
 export default About;
+
