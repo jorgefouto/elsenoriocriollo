@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const CervezasCoctelesMenu = () => (
@@ -50,9 +51,10 @@ const CervezasCoctelesMenu = () => (
           </div>
         </div>
       </div>
-      <p className="text-gray-400 mb-8">Coming soon - Check back for our beer and cocktail offerings.</p>
+      {/* Removed: <p className="text-gray-400 mb-8">Coming soon - Check back for our beer and cocktail offerings.</p> */}
     </div>
   </div>
 );
 
 export default CervezasCoctelesMenu;
+
