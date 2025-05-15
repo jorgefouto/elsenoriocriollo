@@ -930,6 +930,31 @@ const Menu = () => {
               <div className="space-y-12">
                 <div>
                   <h2 className="text-2xl font-serif text-restaurant-gold mb-6">Dulces/Dessert</h2>
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      {/* Crema Volteada - NEW DISH */}
+                      <div className="bg-restaurant-muted border border-restaurant-gold/20 rounded-lg overflow-hidden">
+                        <div className="relative h-52">
+                          <img
+                            src="/lovable-uploads/c2396b1d-a28e-4fdc-83ae-f5f73846aa3d.png"
+                            alt="Crema Volteada"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6">
+                          <div className="flex justify-between items-baseline mb-2">
+                            <h3 className="text-xl font-serif text-restaurant-light">
+                              Crema Volteada
+                            </h3>
+                            <span className="text-restaurant-gold">£4.00</span>
+                          </div>
+                          <p className="text-gray-400">
+                            Traditional Peruvian-style flan made with eggs, milk, and caramel, baked to a smooth and silky texture.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <p className="text-gray-400 mb-8">Coming soon - Check back for our traditional Peruvian desserts.</p>
                 </div>
               </div>
