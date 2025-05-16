@@ -18,7 +18,7 @@ const WhatsAppBubble: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Book a Table via WhatsApp"
-        className="flex items-center gap-2 px-5 py-3 rounded-full bg-yellow-400 hover:bg-yellow-500 transition-colors shadow-lg text-white font-medium text-base group outline-none focus:ring-2 focus:ring-yellow-300 focus:ring-offset-2"
+        className="flex items-center gap-2 px-5 py-3 rounded-full bg-yellow-400 hover:bg-yellow-500 transition-colors shadow-lg text-black font-medium text-base group outline-none focus:ring-2 focus:ring-yellow-300 focus:ring-offset-2"
       >
         {/* Use MessageSquare as the chat icon */}
         <span className="flex items-center">
