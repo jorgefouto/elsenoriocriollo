@@ -10,6 +10,8 @@ import { format } from "date-fns";
 import { Calendar as CalendarIcon } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
+const PHONE_NUMBER = "447445081018"; // International format, no plus
+
 const Reservation = () => {
   const { toast } = useToast();
   const [date, setDate] = useState<Date | undefined>(undefined);
@@ -49,14 +51,28 @@ const Reservation = () => {
       });
       return;
     }
-    
-    // Form submission logic would go here
-    
+
+    // Construct WhatsApp message text
+    const message = 
+      `Book a Table!\n` +
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Phone: ${formData.phone}\n` +
+      `Date: ${format(date, "PPP")}\n` +
+      `Time: ${formData.time}\n` +
+      `Guests: ${formData.guests}\n` +
+      (formData.message ? `Special Requests: ${formData.message}` : "");
+
+    const whatsappUrl = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
+
+    // Open WhatsApp with pre-filled data
+    window.open(whatsappUrl, "_blank");
+
     toast({
-      title: "Reservation Requested",
-      description: "We'll confirm your reservation shortly.",
+      title: "WhatsApp Opened",
+      description: "Your reservation details have been pre-filled in WhatsApp. Please send your reservation to complete the process.",
     });
-    
+
     // Reset form
     setFormData({
       name: "",
@@ -131,7 +147,7 @@ const Reservation = () => {
                 
                 <div className="space-y-2">
                   <Label htmlFor="guests">Guests</Label>
-                  <Select onValueChange={(value) => handleSelectChange("guests", value)}>
+                  <Select onValueChange={(value) => handleSelectChange("guests", value)} value={formData.guests}>
                     <SelectTrigger className="bg-restaurant-muted border-restaurant-gold/20 focus:border-restaurant-gold">
                       <SelectValue placeholder="Number of guests" />
                     </SelectTrigger>
@@ -172,7 +188,7 @@ const Reservation = () => {
                 
                 <div className="space-y-2">
                   <Label htmlFor="time">Time</Label>
-                  <Select onValueChange={(value) => handleSelectChange("time", value)}>
+                  <Select onValueChange={(value) => handleSelectChange("time", value)} value={formData.time}>
                     <SelectTrigger className="bg-restaurant-muted border-restaurant-gold/20 focus:border-restaurant-gold">
                       <SelectValue placeholder="Select time" />
                     </SelectTrigger>
@@ -214,3 +230,4 @@ const Reservation = () => {
 };
 
 export default Reservation;
+
