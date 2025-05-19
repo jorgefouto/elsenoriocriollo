@@ -1,4 +1,3 @@
-
 import { MapPin, Phone, Mail, Clock, Facebook } from 'lucide-react';
 import { Link } from 'react-router-dom';
 const Footer = () => {
@@ -47,52 +46,10 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Clock size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <div>
-                  <span className="text-gray-300 block">Monday</span>
-                  <span className="text-gray-400">12:00 PM - 10:00 PM</span>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <Clock size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <div>
-                  <span className="text-gray-300 block">Tuesday</span>
-                  <span className="text-gray-400">Closed</span>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <Clock size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <div>
-                  <span className="text-gray-300 block">Wednesday</span>
-                  <span className="text-gray-400">12:00 PM - 10:00 PM</span>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <Clock size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <div>
-                  <span className="text-gray-300 block">Thursday</span>
-                  <span className="text-gray-400">12:00 PM - 10:00 PM</span>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <Clock size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <div>
-                  <span className="text-gray-300 block">Friday</span>
-                  <span className="text-gray-400">12:00 PM - 10:00 PM</span>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <Clock size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <div>
-                  <span className="text-gray-300 block">Saturday</span>
-                  <span className="text-gray-400">12:00 PM - 10:00 PM</span>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <Clock size={20} className="text-restaurant-gold mr-2 mt-1 shrink-0" />
-                <div>
-                  <span className="text-gray-300 block">Sunday</span>
-                  <span className="text-gray-400">12:00 PM - 10:00 PM</span>
-                </div>
+                <span className="text-gray-400">
+                  Monday, Wednesday–Sunday: 12:00 to 22:00<br />
+                  <span className="block text-gray-400">Closed Tuesday</span>
+                </span>
               </li>
             </ul>
           </div>
@@ -134,4 +91,3 @@ const Footer = () => {
     </footer>;
 };
 export default Footer;
-
