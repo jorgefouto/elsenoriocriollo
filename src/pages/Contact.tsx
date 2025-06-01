@@ -227,24 +227,6 @@ const Contact = () => {
           </div>
         </section>
         
-        {/* Call to Action */}
-        <section className="py-16 bg-image">
-          <div className="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Restaurant ambiance" className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-gradient-to-b from-restaurant-dark/90 to-restaurant-dark/80"></div>
-          </div>
-          
-          <div className="container mx-auto px-4 relative z-10 text-center">
-            <h2 className="text-3xl md:text-4xl font-serif text-restaurant-light mb-6">Ready to Experience Peruvian Food?</h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Make a reservation today and join us for an unforgettable dining experience.
-            </p>
-            <Button className="bg-restaurant-gold text-restaurant-dark hover:bg-restaurant-gold/90 px-8 py-6 text-lg" asChild>
-              <Link to="/#reservation">Reserve a Table</Link>
-            </Button>
-          </div>
-        </section>
-        
         <Footer />
       </ScrollArea>
     </div>
