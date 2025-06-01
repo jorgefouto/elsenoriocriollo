@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -9,25 +10,22 @@ import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
-  const {
-    toast
-  } = useToast();
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: ""
   });
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const {
-      name,
-      value
-    } = e.target;
+    const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value
     });
   };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -41,11 +39,20 @@ const Contact = () => {
       return;
     }
 
-    // Form submission logic would go here
+    // Construct WhatsApp message
+    const whatsappMessage = encodeURIComponent(
+      `Contact Form Submission:\n\nName: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\nMessage: ${formData.message}`
+    );
+    
+    const PHONE_NUMBER = "447445081018";
+    const whatsappLink = `https://wa.me/${PHONE_NUMBER}?text=${whatsappMessage}`;
+    
+    // Open WhatsApp
+    window.open(whatsappLink, '_blank');
 
     toast({
-      title: "Message Sent",
-      description: "We'll get back to you as soon as possible."
+      title: "Redirecting to WhatsApp",
+      description: "Your message has been prepared and you're being redirected to WhatsApp."
     });
 
     // Reset form
@@ -56,7 +63,9 @@ const Contact = () => {
       message: ""
     });
   };
-  return <div className="min-h-screen bg-restaurant-dark text-restaurant-light">
+
+  return (
+    <div className="min-h-screen bg-restaurant-dark text-restaurant-light">
       <Navbar />
       <ScrollArea className="h-screen">
         {/* Hero Section */}
@@ -238,7 +247,8 @@ const Contact = () => {
         
         <Footer />
       </ScrollArea>
-    </div>;
+    </div>
+  );
 };
 
 export default Contact;
