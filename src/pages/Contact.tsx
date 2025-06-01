@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+
 const Contact = () => {
   const {
     toast
@@ -130,15 +131,14 @@ const Contact = () => {
                 </p>
               </div>
               
-              {/* Hours box remains unchanged */}
+              {/* Hours box with updated times */}
               <div className="bg-restaurant-muted p-8 rounded-lg border border-restaurant-gold/20 text-center">
                 <div className="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-restaurant-gold/10 text-restaurant-gold">
                   <Clock size={28} />
                 </div>
                 <h3 className="text-xl font-serif text-restaurant-gold mb-4">Hours</h3>
-                <p className="text-gray-300 mb-1">Mon-Thu: 5PM-10PM</p>
-                <p className="text-gray-300 mb-1">Fri-Sat: 5PM-11PM</p>
-                <p className="text-gray-300">Sun: 5PM-9PM</p>
+                <p className="text-gray-300 mb-1">Monday, Wednesday–Sunday: 12:00 to 22:00</p>
+                <p className="text-gray-300">Closed Tuesday</p>
               </div>
             </div>
           </div>
@@ -240,4 +240,5 @@ const Contact = () => {
       </ScrollArea>
     </div>;
 };
+
 export default Contact;
