@@ -1,4 +1,7 @@
+
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return <section className="relative hero-height w-full bg-image overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -18,8 +21,8 @@ const Hero = () => {
             <Button className="bg-restaurant-gold text-restaurant-dark hover:bg-restaurant-gold/90 hover:text-restaurant-dark">
               <a href="#reservation">Reserve a Table</a>
             </Button>
-            <Button variant="outline" className="text-restaurant-gold border-restaurant-gold hover:bg-restaurant-gold hover:text-restaurant-dark">
-              <a href="/menu">View Menu</a>
+            <Button variant="outline" className="text-restaurant-gold border-restaurant-gold hover:bg-restaurant-gold hover:text-restaurant-dark" asChild>
+              <Link to="/menu">View Menu</Link>
             </Button>
           </div>
         </div>
