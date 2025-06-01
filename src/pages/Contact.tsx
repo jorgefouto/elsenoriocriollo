@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -7,7 +8,6 @@ import { Label } from "@/components/ui/label";
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -239,9 +239,6 @@ const Contact = () => {
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Make a reservation today and join us for an unforgettable dining experience.
             </p>
-            <Button className="bg-restaurant-gold text-restaurant-dark hover:bg-restaurant-gold/90 px-8 py-6 text-lg" asChild>
-              <Link to="/#reservation">Reserve a Table</Link>
-            </Button>
           </div>
         </section>
         
