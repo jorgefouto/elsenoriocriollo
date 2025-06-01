@@ -166,13 +166,7 @@ const About = () => {
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               We invite you to experience the passion, creativity, and exceptional flavors that define Savory.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a 
-                href="#reservation" 
-                className="px-6 py-3 bg-restaurant-gold text-restaurant-dark font-medium rounded hover:bg-restaurant-gold/90 transition-colors"
-              >
-                Reserve a Table
-              </a>
+            <div className="flex justify-center">
               <a 
                 href="/contact" 
                 className="px-6 py-3 border border-restaurant-gold text-restaurant-gold font-medium rounded hover:bg-restaurant-gold/10 transition-colors"
